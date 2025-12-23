@@ -1,0 +1,16 @@
+Version: 1.0
+ProjectId: f72d43d5-b55d-4704-a93e-bb465d2d9d10
+
+RestoreWorkspace: Default
+SaveWorkspace: Default
+AlwaysSaveHistory: Default
+
+EnableCodeIndexing: Yes
+UseSpacesForTab: Yes
+NumSpacesForTab: 2
+Encoding: UTF-8
+
+RnwWeave: Sweave
+LaTeX: pdfLaTeX
+
+ProjectName: development p53
