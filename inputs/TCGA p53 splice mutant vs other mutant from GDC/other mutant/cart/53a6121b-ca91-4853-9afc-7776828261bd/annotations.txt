@@ -1,0 +1,4 @@
+id	submitter_id	entity_type	entity_id	category	classification	created_datetime	status	notes
+fa76dd94-d148-43b9-970b-cc39412587b6	\N	masked_somatic_mutation	53a6121b-ca91-4853-9afc-7776828261bd	General	Notification	2022-02-28T16:04:11.742463-06:00	Approved	Variants from SomaticSniper are not included.
+c8ae55fe-f478-53f0-b5a9-bdb0b9b40907	1442	analyte	28b912af-a630-4219-9aa1-d479508b0cc0	Item is noncanonical	Notification	2011-03-14T00:00:00	Approved	Lung Squamous Cell Carcinoma  60-70%
+b884923d-16d3-58e4-a39e-994fd403cc14	1470	analyte	bc226b91-5b76-498e-94f1-64619b7e3e2b	Item is noncanonical	Notification	2011-03-14T00:00:00	Approved	Lung Squamous Cell Carcinoma  60-70%

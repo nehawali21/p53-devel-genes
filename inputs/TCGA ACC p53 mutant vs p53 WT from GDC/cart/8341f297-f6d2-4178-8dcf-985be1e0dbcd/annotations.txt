@@ -1,0 +1,3 @@
+id	submitter_id	entity_type	entity_id	category	classification	created_datetime	status	notes
+eb2d61ea-8a37-43bf-9557-356f27b11e91	\N	masked_somatic_mutation	8341f297-f6d2-4178-8dcf-985be1e0dbcd	General	Notification	2022-02-28T12:12:35.950762-06:00	Approved	Variants from SomaticSniper are not included.
+5bbf3dc6-ea9a-58b1-998b-b8a46ba2d910	20691	case	0824b246-9fa2-4a8b-ad4c-1ffc7731bf7d	History of unacceptable prior treatment related to a prior/other malignancy	Notification	2014-06-12T00:00:00	Approved	Prior Osteosarcoma with Cisplatin, Methotrexate, and Adriamycin given to patient prior to TCGA specimen.

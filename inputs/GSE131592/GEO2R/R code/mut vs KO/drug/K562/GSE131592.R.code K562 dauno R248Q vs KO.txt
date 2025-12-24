@@ -1,0 +1,39 @@
+# Version info: R 4.2.2, Biobase 2.58.0, GEOquery 2.66.0, limma 3.54.0
+################################################################
+#   Data plots for selected GEO samples
+
+# load counts table from GEO
+urld <- "https://www.ncbi.nlm.nih.gov/geo/download/?format=file&type=rnaseq_counts"
+path <- paste(urld, "acc=GSE131592", "file=GSE131592_raw_counts_GRCh38.p13_NCBI.tsv.gz", sep="&");
+tbl <- as.matrix(data.table::fread(path, header=T, colClasses="integer"), rownames=1)
+
+# pre-filter low count genes
+# keep genes with at least 2 counts > 10
+keep <- rowSums( tbl >= 10 ) >= 2
+tbl <- tbl[keep, ]
+
+gsms <- paste0("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX111XXXXX",
+        "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")  # sample selection
+sml <- strsplit(gsms, split="")[[1]]
+
+# filter out excluded samples (marked as "X")
+sel <- which(sml != "X")
+sml <- sml[sel]
+tbl <- tbl[ ,sel]
+
+# log transform raw counts
+# instead of raw counts can display vst(as.matrix(tbl)) i.e. variance stabilized counts
+dat <- log10(tbl + 1)
+
+# box-and-whisker plot
+par(mar=c(7,4,2,1))
+boxplot(dat, boxwex=0.7, notch=T, main="GSE131592", ylab="lg(cnt + 1)", outline=F, las=2)
+
+# UMAP plot (dimensionality reduction)
+library(umap)
+dat <- dat[!duplicated(dat), ] # first remove duplicates
+ump <- umap(t(dat), n_neighbors = 2, random_state = 123)
+plot(ump$layout, main="GSE131592 UMAP plot, nbrs =2", xlab="", ylab="", pch=20, cex=1.5)
+library(car)
+pointLabel(ump$layout, labels = rownames(ump$layout), method="SANN", cex=0.6)
+

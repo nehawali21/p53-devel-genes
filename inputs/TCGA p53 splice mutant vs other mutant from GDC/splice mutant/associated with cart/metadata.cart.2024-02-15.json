@@ -1,0 +1,3390 @@
+[{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-73-A9RS-01A-11R-A41B-07", 
+      "entity_type": "aliquot", 
+      "case_id": "2a394996-809f-459f-a647-d209921ccbd2", 
+      "entity_id": "02bb3468-c1a4-405e-b721-68569b1b70d2"
+    }
+  ], 
+  "file_name": "3289364c-0dc2-43e8-bfe2-57d25e8612e5.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "1d143c26-16bc-4b1c-909a-fd51baf7c57f", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "workflow_version": "eecca6e2e475aab335bd7c365025ca0d0daa144b", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.9866453723961184, 
+        "total_reads": 59026206, 
+        "access": "controlled", 
+        "file_name": "3289364c-0dc2-43e8-bfe2-57d25e8612e5.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.002014622, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "528f8017-52a0-4538-b2c7-d0e1205f473e", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 2679417055, 
+        "created_datetime": "2021-12-13T18:13:11.070124-06:00", 
+        "average_base_quality": 39, 
+        "md5sum": "23001933e3bc2d6e03c3b26a871f61b3", 
+        "updated_datetime": "2023-07-12T10:43:15.718276-05:00", 
+        "file_id": "c1ff9d7a-6531-41da-881e-70f889cf7416", 
+        "pairs_on_diff_chr": 157725, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 1150, 
+        "average_read_length": 48, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2022-01-19T13:38:04.793324-06:00", 
+    "workflow_link": "quay.io/ncigdc", 
+    "submitter_id": "3289364c-0dc2-43e8-bfe2-57d25e8612e5_star__counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "64caa2d3-20b2-4145-9214-101f15374210", 
+    "created_datetime": "2021-12-13T19:18:49.251788-06:00"
+  }, 
+  "file_size": 4213976, 
+  "md5sum": "bc165a01e3615b523c65885fb76a7ff8", 
+  "file_id": "f7d58012-79f4-440f-add6-8a00728e96ba", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "MAF", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-73-A9RS-01A-11D-A410-08", 
+      "entity_type": "aliquot", 
+      "case_id": "2a394996-809f-459f-a647-d209921ccbd2", 
+      "entity_id": "7c89393e-6976-44d5-896d-5648b0d092f4"
+    }, 
+    {
+      "entity_submitter_id": "TCGA-73-A9RS-10A-01D-A413-08", 
+      "entity_type": "aliquot", 
+      "case_id": "2a394996-809f-459f-a647-d209921ccbd2", 
+      "entity_id": "3ad125f9-b7cc-4814-b1e8-983a26dcd72c"
+    }
+  ], 
+  "file_name": "df6491d4-98ff-4a0b-b88d-780b7ca73d11.wxs.aliquot_ensemble_masked.maf.gz", 
+  "submitter_id": "e4ef579b-5f5c-4bb8-a406-f1df28bfa172", 
+  "data_category": "Simple Nucleotide Variation", 
+  "annotations": [
+    {
+      "annotation_id": "04060715-6a84-4089-b7cf-c5cb54e9464c", 
+      "entity_submitter_id": "e4ef579b-5f5c-4bb8-a406-f1df28bfa172", 
+      "notes": "Variants from SomaticSniper are not included.", 
+      "entity_type": "masked_somatic_mutation", 
+      "updated_datetime": "2022-02-28T13:45:11.213352-06:00", 
+      "case_id": "2a394996-809f-459f-a647-d209921ccbd2", 
+      "state": "released", 
+      "category": "General", 
+      "classification": "Notification", 
+      "entity_id": "0aa4fbc1-ec6c-4376-b2c7-5e796584d234", 
+      "created_datetime": "2022-02-28T13:45:11.213352-06:00", 
+      "status": "Approved"
+    }
+  ], 
+  "analysis": {
+    "workflow_version": "3dd621a8745ee2b91716911604bf3f096337a9b7", 
+    "input_files": [
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "47a08a7d-6e03-4b72-bc5a-7a8ec0feade2.wxs.VarScan2.aliquot.maf.gz", 
+        "submitter_id": "05725cd1-46a5-48af-93b1-bec11634246d", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 796785, 
+        "created_datetime": "2022-02-03T21:43:39.177617-06:00", 
+        "md5sum": "fc57ea24a9b4ef2bc7b7e52a5007d0a2", 
+        "updated_datetime": "2022-02-07T21:01:20.710715-06:00", 
+        "file_id": "642b843c-7b59-4e0e-82c9-cfb969493dd1", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }, 
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "b80ca280-1ec2-4f9d-9741-098b84fa6657.wxs.Pindel.aliquot.maf.gz", 
+        "submitter_id": "df0f818b-848c-436a-80c3-bd2fb381feb9", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 54407, 
+        "created_datetime": "2022-02-04T00:06:25.920099-06:00", 
+        "md5sum": "bb08d9f71bdd5ba357f90e491f12509e", 
+        "updated_datetime": "2022-02-07T21:01:20.710715-06:00", 
+        "file_id": "bac97185-8298-4812-b204-e3041cdc2f6a", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }, 
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "876f0e6a-7dea-4ddc-847a-4efc788fc7e9.wxs.MuTect2.aliquot.maf.gz", 
+        "submitter_id": "af4f2ad8-c517-4618-abcc-59622506091f", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 1547574, 
+        "created_datetime": "2022-02-03T21:43:34.064351-06:00", 
+        "md5sum": "6ed12e511fb3717d9b5aef90f0a6c20c", 
+        "updated_datetime": "2022-02-07T21:01:20.710715-06:00", 
+        "file_id": "3fd1dd5b-ad5d-4e95-96a0-8c5e7ef0eae8", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }, 
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "89378cc6-4d35-4882-8623-c59b03d23c22.wxs.MuSE.aliquot.maf.gz", 
+        "submitter_id": "a9a6a1a5-4b5b-4145-bec4-8656051780b9", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 693557, 
+        "created_datetime": "2022-02-03T21:43:44.252694-06:00", 
+        "md5sum": "9d541e838b72343ac31d6f11275d21a8", 
+        "updated_datetime": "2022-02-07T21:01:20.710715-06:00", 
+        "file_id": "54aa2735-04a8-43a6-916e-6daae671dc74", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }
+    ], 
+    "updated_datetime": "2022-08-01T16:23:35.378878-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/aliquot-maf-cwl/blob/3dd621a8745ee2b91716911604bf3f096337a9b7/ensemble_aliquot_maf/ensemble_aliquot_maf_wf.cwl", 
+    "submitter_id": "df6491d4-98ff-4a0b-b88d-780b7ca73d11", 
+    "state": "released", 
+    "workflow_type": "Aliquot Ensemble Somatic Variant Merging and Masking", 
+    "analysis_id": "689d5591-6ede-4973-bae8-9613c4ec2fa0", 
+    "created_datetime": "2022-02-04T00:39:10.627595-06:00"
+  }, 
+  "file_size": 315931, 
+  "md5sum": "3a89a33e7d6de325a81e9840836e4e9a", 
+  "file_id": "0aa4fbc1-ec6c-4376-b2c7-5e796584d234", 
+  "data_type": "Masked Somatic Mutation", 
+  "state": "released", 
+  "experimental_strategy": "WXS"
+},{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-44-7669-01A-21R-2066-07", 
+      "entity_type": "aliquot", 
+      "case_id": "4b22ad71-c585-4077-ad3c-c6e026d0c7fa", 
+      "entity_id": "109f2b77-1742-4afa-bcba-b763746fe080"
+    }
+  ], 
+  "file_name": "8536c3c1-1e75-4ebc-b792-30d7d228a117.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "765e3a59-037e-408a-bc63-d23edc56c9ac", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "workflow_version": "eecca6e2e475aab335bd7c365025ca0d0daa144b", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.9898728140653779, 
+        "total_reads": 168496462, 
+        "access": "controlled", 
+        "file_name": "8536c3c1-1e75-4ebc-b792-30d7d228a117.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.00406681, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "a633b59d-2364-484b-b046-c6173a13e9b9", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 8914313058, 
+        "created_datetime": "2021-12-13T18:11:44.882612-06:00", 
+        "average_base_quality": 38, 
+        "md5sum": "247b7466897194f9911ae130626e821d", 
+        "updated_datetime": "2023-07-12T10:43:15.718276-05:00", 
+        "file_id": "b3c414f8-454c-4a45-8d72-69ed5aafcc11", 
+        "pairs_on_diff_chr": 500124, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 1363, 
+        "average_read_length": 48, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2022-01-19T13:38:04.793324-06:00", 
+    "workflow_link": "quay.io/ncigdc", 
+    "submitter_id": "8536c3c1-1e75-4ebc-b792-30d7d228a117_star__counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "5c4806f0-f05d-4224-a720-a775cf71a6f7", 
+    "created_datetime": "2021-12-13T19:18:32.825791-06:00"
+  }, 
+  "file_size": 4258988, 
+  "md5sum": "c21ca32afb67a4dab1ec6d808c21afb9", 
+  "file_id": "9ffe8343-d98f-4c5f-b29a-cbcbdac0c008", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-49-4488-01A-01R-1755-07", 
+      "entity_type": "aliquot", 
+      "case_id": "d721bfe0-90e3-415e-b9f3-1a270efa5fbb", 
+      "entity_id": "94a591be-8b32-4680-b2ad-fc856f3f0c8e"
+    }
+  ], 
+  "file_name": "bae79640-8273-42a2-913e-3d29e00ccc4f.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "0fecc7b3-a201-42eb-bf36-ed54f8aa7f60", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "workflow_version": "eecca6e2e475aab335bd7c365025ca0d0daa144b", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.9881202588713871, 
+        "total_reads": 73635948, 
+        "access": "controlled", 
+        "file_name": "bae79640-8273-42a2-913e-3d29e00ccc4f.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.004404669, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "6d8ff9fc-dc25-4f38-a038-51400080d71e", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 3795133791, 
+        "created_datetime": "2021-12-13T17:42:22.736522-06:00", 
+        "average_base_quality": 38, 
+        "md5sum": "7ab8d83a101c1166f704d2e3ff252b74", 
+        "updated_datetime": "2023-07-12T10:43:15.718276-05:00", 
+        "file_id": "e161311b-eb34-42fd-b906-d0b4cfb7c15a", 
+        "pairs_on_diff_chr": 133954, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 1295, 
+        "average_read_length": 48, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2022-01-19T13:38:04.793324-06:00", 
+    "workflow_link": "quay.io/ncigdc", 
+    "submitter_id": "bae79640-8273-42a2-913e-3d29e00ccc4f_star__counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "9de0beb0-1d40-4cc1-ba06-b0986e6ab7fc", 
+    "created_datetime": "2021-12-13T19:10:55.272311-06:00"
+  }, 
+  "file_size": 4218935, 
+  "md5sum": "6567d9cc847c7cf2e6109e47d0ef4b70", 
+  "file_id": "e824e07e-86cd-43eb-8f36-c60f36194f3c", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "MAF", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-49-4488-11A-01D-1753-08", 
+      "entity_type": "aliquot", 
+      "case_id": "d721bfe0-90e3-415e-b9f3-1a270efa5fbb", 
+      "entity_id": "232307bb-5ab4-48c2-a008-8684ce7e1056"
+    }, 
+    {
+      "entity_submitter_id": "TCGA-49-4488-01A-01D-1753-08", 
+      "entity_type": "aliquot", 
+      "case_id": "d721bfe0-90e3-415e-b9f3-1a270efa5fbb", 
+      "entity_id": "3635bb9c-a332-4445-ad81-83cec426dd02"
+    }
+  ], 
+  "file_name": "3aa8f901-83be-4d62-9af9-957769a62493.wxs.aliquot_ensemble_masked.maf.gz", 
+  "submitter_id": "cd3ada65-6fec-4cc7-8526-73b73948d9a4", 
+  "data_category": "Simple Nucleotide Variation", 
+  "annotations": [
+    {
+      "annotation_id": "54b0f8a1-22a5-4592-aa1c-c318a7f02785", 
+      "entity_submitter_id": "cd3ada65-6fec-4cc7-8526-73b73948d9a4", 
+      "notes": "Variants from SomaticSniper are not included.", 
+      "entity_type": "masked_somatic_mutation", 
+      "updated_datetime": "2022-02-28T15:14:08.245627-06:00", 
+      "state": "released", 
+      "category": "General", 
+      "classification": "Notification", 
+      "entity_id": "f13e461b-ed6d-4fdd-a360-70264d873f85", 
+      "created_datetime": "2022-02-28T15:14:08.245627-06:00", 
+      "status": "Approved"
+    }
+  ], 
+  "analysis": {
+    "workflow_version": "3dd621a8745ee2b91716911604bf3f096337a9b7", 
+    "input_files": [
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "204fdd61-315e-4f7f-80e8-46a3c90de6b4.wxs.Pindel.aliquot.maf.gz", 
+        "submitter_id": "4cafce71-ba1a-4e57-b72e-0eb8fa68f735", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 302754, 
+        "created_datetime": "2022-02-04T00:12:18.105672-06:00", 
+        "md5sum": "108083319a1e73963bda772df2d28717", 
+        "updated_datetime": "2022-02-07T21:01:20.710715-06:00", 
+        "file_id": "33313052-fc6e-445f-8f6f-fc8659c33cd2", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }, 
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "2643646d-0e06-4131-b92e-434a23d572d2.wxs.MuTect2.aliquot.maf.gz", 
+        "submitter_id": "ebb666b5-2ea3-48bc-9722-66149138f5f4", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 1082864, 
+        "created_datetime": "2022-02-03T22:18:49.894514-06:00", 
+        "md5sum": "bb2420c5c80710736c78217acf4a8399", 
+        "updated_datetime": "2022-02-07T21:01:20.710715-06:00", 
+        "file_id": "e0493dfa-53c9-4db5-8ff3-79247c4c6eb8", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }, 
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "2750c6bd-1a10-4ab3-9b6f-899dffd461b2.wxs.VarScan2.aliquot.maf.gz", 
+        "submitter_id": "2f1349f2-9c5f-44ad-ba2a-e48909b763b7", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 302809, 
+        "created_datetime": "2022-02-03T22:18:39.335635-06:00", 
+        "md5sum": "3927441b99b432d459a763ed12428438", 
+        "updated_datetime": "2022-02-07T21:01:20.710715-06:00", 
+        "file_id": "a34eb54e-31e0-4363-9823-1dcf39432378", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }, 
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "b2e13978-319e-42c0-b1f2-492cfc3b89c4.wxs.MuSE.aliquot.maf.gz", 
+        "submitter_id": "ab0d4865-1341-4ace-beee-68b337616fc0", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 252762, 
+        "created_datetime": "2022-02-03T22:18:44.845487-06:00", 
+        "md5sum": "a8787b811832f545417d1045c029289e", 
+        "updated_datetime": "2022-02-07T21:01:20.710715-06:00", 
+        "file_id": "9573bab3-51af-45e7-813f-e76c52a069fd", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }
+    ], 
+    "updated_datetime": "2022-08-01T16:19:33.305970-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/aliquot-maf-cwl/blob/3dd621a8745ee2b91716911604bf3f096337a9b7/ensemble_aliquot_maf/ensemble_aliquot_maf_wf.cwl", 
+    "submitter_id": "3aa8f901-83be-4d62-9af9-957769a62493", 
+    "state": "released", 
+    "workflow_type": "Aliquot Ensemble Somatic Variant Merging and Masking", 
+    "analysis_id": "35d89b7e-f624-446b-9a99-a64c1930ed54", 
+    "created_datetime": "2022-02-04T00:48:45.578618-06:00"
+  }, 
+  "file_size": 94320, 
+  "md5sum": "43ca0d98ded1fbb0aca2e43ad8035ada", 
+  "file_id": "f13e461b-ed6d-4fdd-a360-70264d873f85", 
+  "data_type": "Masked Somatic Mutation", 
+  "state": "released", 
+  "experimental_strategy": "WXS"
+},{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-69-8255-01A-11R-2287-07", 
+      "entity_type": "aliquot", 
+      "case_id": "552712d3-da16-441e-ba93-11810793d598", 
+      "entity_id": "ea0be0ea-2959-435e-a1c6-c5a3b4c52f51"
+    }
+  ], 
+  "file_name": "e40ae18a-9f57-4069-b99f-260c93b52e9f.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "12d134d9-8c5b-49b4-ad89-84dc0eb8d50a", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "workflow_version": "eecca6e2e475aab335bd7c365025ca0d0daa144b", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.9763791263496152, 
+        "total_reads": 253947762, 
+        "access": "controlled", 
+        "file_name": "e40ae18a-9f57-4069-b99f-260c93b52e9f.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.002854366, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "a5d484d2-9e3d-4930-9067-0317818e223d", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 14172550443, 
+        "created_datetime": "2021-12-13T18:16:53.525270-06:00", 
+        "average_base_quality": 36, 
+        "md5sum": "47eff4ac8c04dab717d929f3712101aa", 
+        "updated_datetime": "2023-07-12T10:43:15.718276-05:00", 
+        "file_id": "a35d36a1-fcba-4f4a-9c6d-a9af1d881026", 
+        "pairs_on_diff_chr": 784902, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 1236, 
+        "average_read_length": 48, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2022-01-19T13:38:04.793324-06:00", 
+    "workflow_link": "quay.io/ncigdc", 
+    "submitter_id": "e40ae18a-9f57-4069-b99f-260c93b52e9f_star__counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "8b2da1de-ada0-4aba-8a4c-5d325344f983", 
+    "created_datetime": "2021-12-13T19:19:52.228789-06:00"
+  }, 
+  "file_size": 4257201, 
+  "md5sum": "11b684d65c727ce1b971cdf37acb6ad2", 
+  "file_id": "157223aa-aab5-4522-8ff2-8104ea3561d9", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-05-4415-01A-22R-1858-07", 
+      "entity_type": "aliquot", 
+      "case_id": "d15b7b29-c5c5-41d8-b83b-7cc12fe92820", 
+      "entity_id": "7f9f381e-edb1-4a5e-b5f7-c31b2a769912"
+    }
+  ], 
+  "file_name": "981bfd73-1d4c-47c0-870a-b9a6300858dc.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "154c2ea2-1299-4208-8b97-a840dad7c927", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "workflow_version": "eecca6e2e475aab335bd7c365025ca0d0daa144b", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.9889591761859686, 
+        "total_reads": 116820540, 
+        "access": "controlled", 
+        "file_name": "981bfd73-1d4c-47c0-870a-b9a6300858dc.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.001653937, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "2cbd97c5-397a-46fd-a43c-ec6fb799cfac", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 5334258845, 
+        "created_datetime": "2021-12-13T17:53:29.460846-06:00", 
+        "average_base_quality": 38, 
+        "md5sum": "ddea1ab5b8d7edb1b7d9ff7b285d598a", 
+        "updated_datetime": "2023-07-12T10:43:15.718276-05:00", 
+        "file_id": "ba3d2868-fdcf-4c29-9fc6-5c2284ab27eb", 
+        "pairs_on_diff_chr": 284031, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 1360, 
+        "average_read_length": 48, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2022-01-19T13:38:04.793324-06:00", 
+    "workflow_link": "quay.io/ncigdc", 
+    "submitter_id": "981bfd73-1d4c-47c0-870a-b9a6300858dc_star__counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "47cb3f1d-b9df-4003-b2fc-d4a4afe9d68a", 
+    "created_datetime": "2021-12-13T19:13:55.032232-06:00"
+  }, 
+  "file_size": 4230310, 
+  "md5sum": "6959c489a603e1f8d501b811b7446fb7", 
+  "file_id": "892294a6-6b94-4284-bae3-9eb0bdc853f6", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "MAF", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-44-7669-10A-01D-2063-08", 
+      "entity_type": "aliquot", 
+      "case_id": "4b22ad71-c585-4077-ad3c-c6e026d0c7fa", 
+      "entity_id": "94563be5-dde7-4c55-bc6e-14f2a1243839"
+    }, 
+    {
+      "entity_submitter_id": "TCGA-44-7669-01A-21D-2063-08", 
+      "entity_type": "aliquot", 
+      "case_id": "4b22ad71-c585-4077-ad3c-c6e026d0c7fa", 
+      "entity_id": "9d19ad71-e908-4847-8b5f-c76c63216b53"
+    }
+  ], 
+  "file_name": "4f32b0dd-1d38-4f67-9ea1-cd5a6fff7895.wxs.aliquot_ensemble_masked.maf.gz", 
+  "submitter_id": "cb425e9f-f045-457f-af81-0f610171d753", 
+  "data_category": "Simple Nucleotide Variation", 
+  "annotations": [
+    {
+      "annotation_id": "6caa18be-d042-45c6-952e-620242a52cb0", 
+      "entity_submitter_id": "cb425e9f-f045-457f-af81-0f610171d753", 
+      "notes": "Variants from SomaticSniper are not included.", 
+      "entity_type": "masked_somatic_mutation", 
+      "updated_datetime": "2022-02-28T13:48:32.705437-06:00", 
+      "state": "released", 
+      "category": "General", 
+      "classification": "Notification", 
+      "entity_id": "8c1e1479-7719-4391-b758-89526fe6bb26", 
+      "created_datetime": "2022-02-28T13:48:32.705437-06:00", 
+      "status": "Approved"
+    }
+  ], 
+  "analysis": {
+    "workflow_version": "3dd621a8745ee2b91716911604bf3f096337a9b7", 
+    "input_files": [
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "abcf9b78-53d6-4f64-b0d6-87bfb75bf8b5.wxs.MuSE.aliquot.maf.gz", 
+        "submitter_id": "cca5c4d4-b193-4082-b59e-c0b66dfb5aac", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 389838, 
+        "created_datetime": "2022-02-03T21:23:51.490637-06:00", 
+        "md5sum": "6a16861f46cfebd2931febd1e2baa75d", 
+        "updated_datetime": "2022-02-07T21:01:20.710715-06:00", 
+        "file_id": "d2fa3c61-43a4-43e9-ba8b-b24cb3d039c5", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }, 
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "cf717c35-8fdb-46b6-af4d-ce8dd618b8ee.wxs.MuTect2.aliquot.maf.gz", 
+        "submitter_id": "c50800b0-6b48-4e09-b10a-9496d5a2d7d3", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 1764834, 
+        "created_datetime": "2022-02-03T21:23:40.818040-06:00", 
+        "md5sum": "8e9a5a19c9a158376d28f0719af73b3e", 
+        "updated_datetime": "2022-02-07T21:01:20.710715-06:00", 
+        "file_id": "0d4f7305-b70a-4631-baf8-4f2f7db1b79b", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }, 
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "35528d66-c591-48f9-9823-17cefd4e9a21.wxs.VarScan2.aliquot.maf.gz", 
+        "submitter_id": "83aa4955-0898-40f5-94fa-31947471643a", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 461628, 
+        "created_datetime": "2022-02-03T21:23:46.173640-06:00", 
+        "md5sum": "0feba2ca1a272b5710f0bdd942437520", 
+        "updated_datetime": "2022-02-07T21:01:20.710715-06:00", 
+        "file_id": "c809a13d-66b2-4274-94af-2406b7c848be", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }, 
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "020d95d0-57db-4faa-9f86-28ec522cd9fa.wxs.Pindel.aliquot.maf.gz", 
+        "submitter_id": "db400f54-66c2-4f5e-b772-372659260b94", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 39485, 
+        "created_datetime": "2022-02-04T00:03:21.266696-06:00", 
+        "md5sum": "016c80c47225935502f3d4ba72587cd8", 
+        "updated_datetime": "2022-02-07T21:01:20.710715-06:00", 
+        "file_id": "ba248ef3-f7d0-418e-85b0-5c06c676f44e", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }
+    ], 
+    "updated_datetime": "2022-08-01T16:27:37.143822-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/aliquot-maf-cwl/blob/3dd621a8745ee2b91716911604bf3f096337a9b7/ensemble_aliquot_maf/ensemble_aliquot_maf_wf.cwl", 
+    "submitter_id": "4f32b0dd-1d38-4f67-9ea1-cd5a6fff7895", 
+    "state": "released", 
+    "workflow_type": "Aliquot Ensemble Somatic Variant Merging and Masking", 
+    "analysis_id": "24d78551-765a-4556-9e31-2a35a3fe80c2", 
+    "created_datetime": "2022-02-04T00:36:39.389939-06:00"
+  }, 
+  "file_size": 154058, 
+  "md5sum": "65972bafb287ae275c03db5e1e9c1aaa", 
+  "file_id": "8c1e1479-7719-4391-b758-89526fe6bb26", 
+  "data_type": "Masked Somatic Mutation", 
+  "state": "released", 
+  "experimental_strategy": "WXS"
+},{
+  "data_format": "MAF", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-69-8255-01A-11D-2284-08", 
+      "entity_type": "aliquot", 
+      "case_id": "552712d3-da16-441e-ba93-11810793d598", 
+      "entity_id": "d45c36eb-e90a-4493-8020-5d9bce7b328e"
+    }, 
+    {
+      "entity_submitter_id": "TCGA-69-8255-10A-01D-2284-08", 
+      "entity_type": "aliquot", 
+      "case_id": "552712d3-da16-441e-ba93-11810793d598", 
+      "entity_id": "457d76f9-2695-4cb7-a7ba-a31cebfbc053"
+    }
+  ], 
+  "file_name": "960c38ee-03c4-4b33-8085-974c58cf6d83.wxs.aliquot_ensemble_masked.maf.gz", 
+  "submitter_id": "2161213d-12ed-481d-8bb9-854e2bb00ce9", 
+  "data_category": "Simple Nucleotide Variation", 
+  "annotations": [
+    {
+      "annotation_id": "af91e664-d9d0-46ca-9d8b-bf8a41afad54", 
+      "entity_submitter_id": "2161213d-12ed-481d-8bb9-854e2bb00ce9", 
+      "notes": "Variants from SomaticSniper are not included.", 
+      "entity_type": "masked_somatic_mutation", 
+      "updated_datetime": "2022-02-28T15:06:15.918143-06:00", 
+      "state": "released", 
+      "category": "General", 
+      "classification": "Notification", 
+      "entity_id": "e2025176-89e8-4afd-8e08-3b89c336e0c2", 
+      "created_datetime": "2022-02-28T15:06:15.918143-06:00", 
+      "status": "Approved"
+    }
+  ], 
+  "analysis": {
+    "workflow_version": "3dd621a8745ee2b91716911604bf3f096337a9b7", 
+    "input_files": [
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "ed7bb3ed-5c2c-4e54-897a-ab93444689e0.wxs.VarScan2.aliquot.maf.gz", 
+        "submitter_id": "49527900-368f-4e5e-93c5-f549c14f1250", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 386002, 
+        "created_datetime": "2022-02-03T21:58:42.801758-06:00", 
+        "md5sum": "a62254b7b21151219f004cdccf81e89c", 
+        "updated_datetime": "2022-02-07T21:01:20.710715-06:00", 
+        "file_id": "37732720-611b-4766-b7f2-dc502e95cfeb", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }, 
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "ceebd438-0ba9-4c5f-ae34-b8a1b21de8e9.wxs.MuTect2.aliquot.maf.gz", 
+        "submitter_id": "9d6bc2ae-d72f-4100-be2c-dc8a9bacad8d", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 1613997, 
+        "created_datetime": "2022-02-03T21:58:48.762597-06:00", 
+        "md5sum": "408ddd76daf9766b35bae8faa8cedcc0", 
+        "updated_datetime": "2022-02-07T21:01:20.710715-06:00", 
+        "file_id": "d1784f1e-e370-4f3e-9315-52af7acf191e", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }, 
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "39c35893-9474-4643-9fa7-61f9794f3e27.wxs.MuSE.aliquot.maf.gz", 
+        "submitter_id": "3c7c783f-c21d-457c-b6ac-55c65c43137c", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 293322, 
+        "created_datetime": "2022-02-03T21:59:00.020416-06:00", 
+        "md5sum": "bd581ba074f9782325c953a0ec523070", 
+        "updated_datetime": "2022-02-07T21:01:20.710715-06:00", 
+        "file_id": "701ee3fa-9ae4-4491-b26d-42a47d317ca5", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }, 
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "58f08265-7d20-451b-af9d-49c8b9c2fae7.wxs.Pindel.aliquot.maf.gz", 
+        "submitter_id": "b5041d7e-055c-43ed-8146-86fc7c856d9b", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 30253, 
+        "created_datetime": "2022-02-04T00:09:00.863121-06:00", 
+        "md5sum": "45ea37f86787c21c3e8fa2aaeeed927e", 
+        "updated_datetime": "2022-02-07T21:01:20.710715-06:00", 
+        "file_id": "8e35ed16-171b-493d-a15f-48b04c18c1e3", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }
+    ], 
+    "updated_datetime": "2022-08-01T16:30:28.220591-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/aliquot-maf-cwl/blob/3dd621a8745ee2b91716911604bf3f096337a9b7/ensemble_aliquot_maf/ensemble_aliquot_maf_wf.cwl", 
+    "submitter_id": "960c38ee-03c4-4b33-8085-974c58cf6d83", 
+    "state": "released", 
+    "workflow_type": "Aliquot Ensemble Somatic Variant Merging and Masking", 
+    "analysis_id": "4f941871-912c-4e28-8d8e-8383191f4969", 
+    "created_datetime": "2022-02-04T00:41:09.851507-06:00"
+  }, 
+  "file_size": 103628, 
+  "md5sum": "719c7bd30dd8c9ee855d550a80f0c6e3", 
+  "file_id": "e2025176-89e8-4afd-8e08-3b89c336e0c2", 
+  "data_type": "Masked Somatic Mutation", 
+  "state": "released", 
+  "experimental_strategy": "WXS"
+},{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-AA-3673-01A-01R-0905-07", 
+      "entity_type": "aliquot", 
+      "case_id": "628408ce-0691-4e0b-b4c7-aca9a0d73bb0", 
+      "entity_id": "2b45b813-3661-47fc-ad9e-cc495ca51d49"
+    }
+  ], 
+  "file_name": "1ba54adc-765f-403a-8987-61f94db2a65b.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "293f72a1-a1e9-42b4-960f-13dbc47a3587", 
+  "data_category": "Transcriptome Profiling", 
+  "annotations": [
+    {
+      "annotation_id": "1bde07cb-3b79-42da-bf30-ad4bcc860236", 
+      "entity_submitter_id": "TCGA-AA-3673-01A-01R-0905-07", 
+      "notes": "Some RNA-Seq file types may be missing from this aliquot due to it being processed with single-end sequencing.", 
+      "entity_type": "aliquot", 
+      "updated_datetime": "2022-08-08T12:41:35.180307-05:00", 
+      "case_id": "628408ce-0691-4e0b-b4c7-aca9a0d73bb0", 
+      "state": "released", 
+      "category": "General", 
+      "classification": "Notification", 
+      "entity_id": "2b45b813-3661-47fc-ad9e-cc495ca51d49", 
+      "created_datetime": "2022-08-08T12:41:35.180307-05:00", 
+      "status": "Approved"
+    }, 
+    {
+      "annotation_id": "cc0c77f3-6199-4c37-a629-9c182026a21c", 
+      "entity_submitter_id": "TCGA-AA-3673-01A-01R-0905-07", 
+      "notes": "Some RNA-Seq file types may be missing from this aliquot due to it being processed with single-end sequencing.", 
+      "entity_type": "aliquot", 
+      "updated_datetime": "2022-08-08T12:41:35.180307-05:00", 
+      "case_id": "628408ce-0691-4e0b-b4c7-aca9a0d73bb0", 
+      "state": "released", 
+      "category": "General", 
+      "classification": "Notification", 
+      "entity_id": "2b45b813-3661-47fc-ad9e-cc495ca51d49", 
+      "created_datetime": "2022-08-08T12:41:35.180307-05:00", 
+      "status": "Approved"
+    }
+  ], 
+  "analysis": {
+    "workflow_version": "470801dfbc085958058a5b50518e4f3a5e4721c3", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.9935119570479228, 
+        "total_reads": 35656669, 
+        "access": "controlled", 
+        "file_name": "1ba54adc-765f-403a-8987-61f94db2a65b.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.002765583, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "b33e6839-fcfd-41c9-adf7-5e4ecec64a91", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 2394621872, 
+        "created_datetime": "2022-01-05T11:06:48.019328-06:00", 
+        "average_base_quality": 36, 
+        "md5sum": "224f355b97763bc802dce328fb45ad6d", 
+        "updated_datetime": "2023-07-12T10:24:05.700835-05:00", 
+        "file_id": "6e7f1337-60ac-405b-9dff-f7754739b437", 
+        "pairs_on_diff_chr": 0, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 0, 
+        "average_read_length": 76, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2022-01-20T11:48:45.559708-06:00", 
+    "workflow_link": "quay.io/ncigdc", 
+    "submitter_id": "1ba54adc-765f-403a-8987-61f94db2a65b_star__counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "f955f60b-44df-4087-93c1-48dfd3382997", 
+    "created_datetime": "2022-01-05T18:44:35.462346-06:00"
+  }, 
+  "file_size": 4221087, 
+  "md5sum": "c22797ca81cf34161df6568ef15cf833", 
+  "file_id": "7079a45a-d00b-44f3-9b0d-8c686180966b", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "MAF", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-CM-5863-10A-01D-1835-10", 
+      "entity_type": "aliquot", 
+      "case_id": "cc1d6ad3-b60d-482e-8fa4-0af26823007d", 
+      "entity_id": "6605146a-3941-4447-896a-cceafe429c70"
+    }, 
+    {
+      "entity_submitter_id": "TCGA-CM-5863-01A-21D-1835-10", 
+      "entity_type": "aliquot", 
+      "case_id": "cc1d6ad3-b60d-482e-8fa4-0af26823007d", 
+      "entity_id": "95c3734e-4845-4056-8e40-3db54f80a65a"
+    }
+  ], 
+  "file_name": "e0957168-e3b6-41b0-a539-b4635e322221.wxs.aliquot_ensemble_masked.maf.gz", 
+  "submitter_id": "3af11516-95ec-46ba-bf6a-f2bff78d4995", 
+  "data_category": "Simple Nucleotide Variation", 
+  "annotations": [
+    {
+      "annotation_id": "efe54bca-de51-43b4-9093-06d1b8c9ca8e", 
+      "entity_submitter_id": "3af11516-95ec-46ba-bf6a-f2bff78d4995", 
+      "notes": "Variants from SomaticSniper are not included.", 
+      "entity_type": "masked_somatic_mutation", 
+      "updated_datetime": "2022-02-28T14:44:28.845855-06:00", 
+      "state": "released", 
+      "category": "General", 
+      "classification": "Notification", 
+      "entity_id": "68eb5f94-0f57-494d-b54b-e7747bd89175", 
+      "created_datetime": "2022-02-28T14:44:28.845855-06:00", 
+      "status": "Approved"
+    }, 
+    {
+      "entity_submitter_id": "TCGA-CM-5863", 
+      "notes": "[intgen.org]: Pathology Results off Spec", 
+      "submitter_id": "2923", 
+      "classification": "Notification", 
+      "entity_id": "cc1d6ad3-b60d-482e-8fa4-0af26823007d", 
+      "created_datetime": "2011-07-01T00:00:00", 
+      "annotation_id": "dd62ea62-e8f8-5501-b4bc-f054749b8539", 
+      "entity_type": "case", 
+      "updated_datetime": "2018-08-23T16:36:27.780612-05:00", 
+      "case_id": "cc1d6ad3-b60d-482e-8fa4-0af26823007d", 
+      "state": "released", 
+      "category": "Pathology outside specification", 
+      "status": "Approved"
+    }
+  ], 
+  "analysis": {
+    "workflow_version": "3dd621a8745ee2b91716911604bf3f096337a9b7", 
+    "input_files": [
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "0025bbad-8084-4a40-8c7b-ed153d212c2b.wxs.Pindel.aliquot.maf.gz", 
+        "submitter_id": "6fd512ad-958b-459d-930f-921b264f8a0c", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 165061, 
+        "created_datetime": "2022-02-04T19:26:14.800574-06:00", 
+        "md5sum": "7b3d61c70ba3db8feefb5a9eacb3a495", 
+        "updated_datetime": "2022-02-07T22:44:01.208662-06:00", 
+        "file_id": "78f55c0d-74a6-4345-881e-39dd14f7273f", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }, 
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "51799580-851c-418d-a38f-8bb2ad907147.wxs.MuSE.aliquot.maf.gz", 
+        "submitter_id": "768d61f4-e370-478b-8e64-4567032afdaa", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 131407, 
+        "created_datetime": "2022-02-04T17:10:42.664362-06:00", 
+        "md5sum": "96fdfea6442861db4997fc0daf81abf3", 
+        "updated_datetime": "2022-02-07T22:44:01.208662-06:00", 
+        "file_id": "722af479-1525-4e8a-b2aa-807e5c46c220", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }, 
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "b1e8f376-a9d8-48c2-b516-d395767acb0e.wxs.VarScan2.aliquot.maf.gz", 
+        "submitter_id": "5dcb4fb0-5670-46a4-9af3-2d1fac23cebe", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 160554, 
+        "created_datetime": "2022-02-04T17:10:29.171950-06:00", 
+        "md5sum": "d21bac143404025ebabff1774d45ddbd", 
+        "updated_datetime": "2022-02-07T22:44:01.208662-06:00", 
+        "file_id": "d0832597-4d6e-4f93-89f6-88c3896d2fa4", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }, 
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "8d80edd2-9ab4-4639-9b62-75c0f0b71b4e.wxs.MuTect2.aliquot.maf.gz", 
+        "submitter_id": "c0a35be0-c4e1-4c56-b3f6-52c01ca70d79", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 2797755, 
+        "created_datetime": "2022-02-04T17:10:37.808055-06:00", 
+        "md5sum": "3bf7faec4401237027d5612f472270be", 
+        "updated_datetime": "2022-02-07T22:44:01.208662-06:00", 
+        "file_id": "e29ed814-af64-4fd9-b3e7-03a17b833fd7", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }
+    ], 
+    "updated_datetime": "2022-08-01T12:33:49.748125-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/aliquot-maf-cwl/blob/3dd621a8745ee2b91716911604bf3f096337a9b7/ensemble_aliquot_maf/ensemble_aliquot_maf_wf.cwl", 
+    "submitter_id": "e0957168-e3b6-41b0-a539-b4635e322221", 
+    "state": "released", 
+    "workflow_type": "Aliquot Ensemble Somatic Variant Merging and Masking", 
+    "analysis_id": "e49b766d-781a-432d-8941-45c2a218ab89", 
+    "created_datetime": "2022-02-04T19:49:56.672345-06:00"
+  }, 
+  "file_size": 24877, 
+  "md5sum": "b76b8c8c10dc101d6eaf2214512bfb29", 
+  "file_id": "68eb5f94-0f57-494d-b54b-e7747bd89175", 
+  "data_type": "Masked Somatic Mutation", 
+  "state": "released", 
+  "experimental_strategy": "WXS"
+},{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-CM-5863-01A-21R-1839-07", 
+      "entity_type": "aliquot", 
+      "case_id": "cc1d6ad3-b60d-482e-8fa4-0af26823007d", 
+      "entity_id": "b404de5b-49c7-4ace-b423-6a46e6378d3e"
+    }
+  ], 
+  "file_name": "4c7083b3-eccc-4d80-a31d-6fd3cd0222b4.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "0c2396ba-e1ff-48b8-bbb2-dd3c882ce62d", 
+  "data_category": "Transcriptome Profiling", 
+  "annotations": [
+    {
+      "entity_submitter_id": "TCGA-CM-5863", 
+      "notes": "[intgen.org]: Pathology Results off Spec", 
+      "submitter_id": "2923", 
+      "classification": "Notification", 
+      "entity_id": "cc1d6ad3-b60d-482e-8fa4-0af26823007d", 
+      "created_datetime": "2011-07-01T00:00:00", 
+      "annotation_id": "dd62ea62-e8f8-5501-b4bc-f054749b8539", 
+      "entity_type": "case", 
+      "updated_datetime": "2018-08-23T16:36:27.780612-05:00", 
+      "case_id": "cc1d6ad3-b60d-482e-8fa4-0af26823007d", 
+      "state": "released", 
+      "category": "Pathology outside specification", 
+      "status": "Approved"
+    }
+  ], 
+  "analysis": {
+    "workflow_version": "5d8c131bbff59fb0c969217fc1d44e6d1503cd1f", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.9871075330291297, 
+        "total_reads": 119980606, 
+        "access": "controlled", 
+        "file_name": "4c7083b3-eccc-4d80-a31d-6fd3cd0222b4.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.002571218, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "4d73815f-d510-4372-a771-e8088f9044fd", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 6054510945, 
+        "created_datetime": "2022-01-05T16:39:51.993142-06:00", 
+        "average_base_quality": 37, 
+        "md5sum": "cfbe16509b373e1a15b32d36e688dd1c", 
+        "updated_datetime": "2023-07-12T10:46:23.464346-05:00", 
+        "file_id": "c8c34957-f0be-4a96-b15d-bb809c9bc8be", 
+        "pairs_on_diff_chr": 284394, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 1221, 
+        "average_read_length": 48, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2022-01-20T11:48:45.559708-06:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-rnaseq-cwl/blob/5d8c131bbff59fb0c969217fc1d44e6d1503cd1f/rnaseq-star-align/star2pass.rnaseq_harmonization.cwl", 
+    "submitter_id": "4c7083b3-eccc-4d80-a31d-6fd3cd0222b4_star__counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "610e7bdc-e970-4ff8-a56c-9dfbe3f8c254", 
+    "created_datetime": "2022-01-05T18:55:32.932434-06:00"
+  }, 
+  "file_size": 4231830, 
+  "md5sum": "cd711cc97c657c3af4ca32fa4e7f3734", 
+  "file_id": "835d2360-3e00-4c3c-9d01-039a2915bd4c", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "MAF", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-AA-3673-01A-01W-0900-09", 
+      "entity_type": "aliquot", 
+      "case_id": "628408ce-0691-4e0b-b4c7-aca9a0d73bb0", 
+      "entity_id": "7952f001-8901-44b4-833e-824282967118"
+    }, 
+    {
+      "entity_submitter_id": "TCGA-AA-3673-10A-01W-0900-09", 
+      "entity_type": "aliquot", 
+      "case_id": "628408ce-0691-4e0b-b4c7-aca9a0d73bb0", 
+      "entity_id": "490f8847-318a-48dc-a014-1311eccb4852"
+    }
+  ], 
+  "file_name": "03af86f0-2fd1-44cf-bc3a-ae8f36887880.wxs.aliquot_ensemble_masked.maf.gz", 
+  "submitter_id": "25b8b32f-6691-41b9-bbed-3f440228e350", 
+  "data_category": "Simple Nucleotide Variation", 
+  "annotations": [
+    {
+      "annotation_id": "6752f2dc-f363-426a-a035-0998c10ad587", 
+      "entity_submitter_id": "25b8b32f-6691-41b9-bbed-3f440228e350", 
+      "notes": "Variants from SomaticSniper are not included.", 
+      "entity_type": "masked_somatic_mutation", 
+      "updated_datetime": "2022-02-28T13:13:49.014782-06:00", 
+      "state": "released", 
+      "category": "General", 
+      "classification": "Notification", 
+      "entity_id": "b468ea1c-72ad-4f87-844c-9e8d30526106", 
+      "created_datetime": "2022-02-28T13:13:49.014782-06:00", 
+      "status": "Approved"
+    }
+  ], 
+  "analysis": {
+    "workflow_version": "3dd621a8745ee2b91716911604bf3f096337a9b7", 
+    "input_files": [
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "e9c1385f-d75e-4736-bc91-3484237c345d.wxs.MuTect2.aliquot.maf.gz", 
+        "submitter_id": "46686215-b142-48d8-8d14-8eb506e81b48", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 1876134, 
+        "created_datetime": "2022-02-04T17:15:58.252186-06:00", 
+        "md5sum": "a0e7071389a48104c6f784a7342763d2", 
+        "updated_datetime": "2022-02-07T22:44:01.208662-06:00", 
+        "file_id": "4c040407-cde0-4c09-8f11-ff0a668d41c9", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }, 
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "1107ec1e-41d5-4058-866a-497e738d3fbd.wxs.Pindel.aliquot.maf.gz", 
+        "submitter_id": "828e0ea7-3959-41df-ad7e-ea089ef1095a", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 134768, 
+        "created_datetime": "2022-02-04T19:26:47.037524-06:00", 
+        "md5sum": "18d29d8170cd5951ec9ca4e7f6a75e1e", 
+        "updated_datetime": "2022-02-07T22:44:01.208662-06:00", 
+        "file_id": "d4f138cd-83ff-4f53-80c8-12834c3e283d", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }, 
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "cee69fa1-2b69-4177-8a41-8ecaf2a876e2.wxs.MuSE.aliquot.maf.gz", 
+        "submitter_id": "9ef6500a-1798-4ff1-9148-be278eed720e", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 139841, 
+        "created_datetime": "2022-02-04T17:15:50.177243-06:00", 
+        "md5sum": "f417c45b394a7fc88b594e36693d49ed", 
+        "updated_datetime": "2022-02-07T22:44:01.208662-06:00", 
+        "file_id": "38b43603-026b-4ecd-b440-e685cc3ffdb5", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }, 
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "66a3c714-2e04-4178-afb8-c8df2c8f0245.wxs.VarScan2.aliquot.maf.gz", 
+        "submitter_id": "7f7c1975-b8f1-461b-8970-210295e5ff54", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 338099, 
+        "created_datetime": "2022-02-04T17:16:02.905329-06:00", 
+        "md5sum": "4fe6b7399b1604373404df19fbed5566", 
+        "updated_datetime": "2022-02-07T22:44:01.208662-06:00", 
+        "file_id": "8b78c229-0abd-4980-a5a5-778d1c34f4d5", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }
+    ], 
+    "updated_datetime": "2022-08-01T12:31:16.900143-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/aliquot-maf-cwl/blob/3dd621a8745ee2b91716911604bf3f096337a9b7/ensemble_aliquot_maf/ensemble_aliquot_maf_wf.cwl", 
+    "submitter_id": "03af86f0-2fd1-44cf-bc3a-ae8f36887880", 
+    "state": "released", 
+    "workflow_type": "Aliquot Ensemble Somatic Variant Merging and Masking", 
+    "analysis_id": "33e33bbb-54b3-455f-9ff6-6644c349afa7", 
+    "created_datetime": "2022-02-04T19:50:22.267794-06:00"
+  }, 
+  "file_size": 34324, 
+  "md5sum": "2bad7c464e097a7808ffac83e1bfd3bd", 
+  "file_id": "b468ea1c-72ad-4f87-844c-9e8d30526106", 
+  "data_type": "Masked Somatic Mutation", 
+  "state": "released", 
+  "experimental_strategy": "WXS"
+},{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-4Z-AA80-01A-11R-A39I-07", 
+      "entity_type": "aliquot", 
+      "case_id": "5df620fa-44d9-4361-91d0-f242e3e5e595", 
+      "entity_id": "b76b37cf-c9af-419d-a7c4-f97747de2946"
+    }
+  ], 
+  "file_name": "29c9686d-6d95-48dd-890d-7b3b3b4ce4ec.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "c1d38c5f-5fdc-4ce8-9726-43435e10eeca", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "workflow_version": "5d8c131bbff59fb0c969217fc1d44e6d1503cd1f", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.9825465392259681, 
+        "total_reads": 94621578, 
+        "access": "controlled", 
+        "file_name": "29c9686d-6d95-48dd-890d-7b3b3b4ce4ec.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.001561108, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "9b0bd988-c207-44bf-becf-c0cfc55507d9", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 4299344486, 
+        "created_datetime": "2021-12-13T17:12:35.464828-06:00", 
+        "average_base_quality": 38, 
+        "md5sum": "8c478c216a119e1079aa0685c73206d1", 
+        "updated_datetime": "2023-07-12T10:41:35.685829-05:00", 
+        "file_id": "f0623198-14d3-462f-99fe-9ea957ce5a6f", 
+        "pairs_on_diff_chr": 101589, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 1193, 
+        "average_read_length": 48, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2022-01-19T11:51:03.862792-06:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-rnaseq-cwl/blob/5d8c131bbff59fb0c969217fc1d44e6d1503cd1f/rnaseq-star-align/star2pass.rnaseq_harmonization.cwl", 
+    "submitter_id": "29c9686d-6d95-48dd-890d-7b3b3b4ce4ec_star__counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "9827ac96-ea22-4385-81c7-0a706f69d181", 
+    "created_datetime": "2021-12-13T17:53:02.018802-06:00"
+  }, 
+  "file_size": 4228004, 
+  "md5sum": "457ae7b6f2e986b263c3f2f6b113007d", 
+  "file_id": "2fd7f864-8f3a-4299-8890-d0347ff9b074", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "MAF", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-4Z-AA80-10A-01D-A394-08", 
+      "entity_type": "aliquot", 
+      "case_id": "5df620fa-44d9-4361-91d0-f242e3e5e595", 
+      "entity_id": "8949cc6e-380b-41d7-ae6a-8ddfea37d60c"
+    }, 
+    {
+      "entity_submitter_id": "TCGA-4Z-AA80-01A-11D-A391-08", 
+      "entity_type": "aliquot", 
+      "case_id": "5df620fa-44d9-4361-91d0-f242e3e5e595", 
+      "entity_id": "18f520c7-c8c6-42ea-a103-64bed0e002f2"
+    }
+  ], 
+  "file_name": "37718b82-57fd-43dd-9d64-f74198e25292.wxs.aliquot_ensemble_masked.maf.gz", 
+  "submitter_id": "4fab359a-8a9b-48f8-ae9d-27b69f654c23", 
+  "data_category": "Simple Nucleotide Variation", 
+  "annotations": [
+    {
+      "annotation_id": "4bb22849-24e2-4acd-b031-bdfc6d9f6f14", 
+      "entity_submitter_id": "4fab359a-8a9b-48f8-ae9d-27b69f654c23", 
+      "notes": "Variants from SomaticSniper are not included.", 
+      "entity_type": "masked_somatic_mutation", 
+      "updated_datetime": "2022-02-28T13:17:27.978250-06:00", 
+      "state": "released", 
+      "category": "General", 
+      "classification": "Notification", 
+      "entity_id": "375b3bd6-5e82-45ab-836d-8a9eba4979c5", 
+      "created_datetime": "2022-02-28T13:17:27.978250-06:00", 
+      "status": "Approved"
+    }
+  ], 
+  "analysis": {
+    "workflow_version": "3dd621a8745ee2b91716911604bf3f096337a9b7", 
+    "input_files": [
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "5a4534d6-9b81-47db-b51f-dcf31bcfa9d0.wxs.VarScan2.aliquot.maf.gz", 
+        "submitter_id": "7800569c-a3d2-489e-aa3e-7a23ace601b8", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 345726, 
+        "created_datetime": "2022-02-04T17:30:08.591623-06:00", 
+        "md5sum": "273d9c603afafdec650107c5cd036190", 
+        "updated_datetime": "2022-02-08T00:01:17.742098-06:00", 
+        "file_id": "12f7f364-f132-4f44-bfab-8ac6e66602f2", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }, 
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "66078242-1f31-4754-915e-7993d08d1945.wxs.MuTect2.aliquot.maf.gz", 
+        "submitter_id": "67f80a11-5bb7-4a65-9660-065068e72fa1", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 991841, 
+        "created_datetime": "2022-02-04T17:30:03.964715-06:00", 
+        "md5sum": "d75686e0b8e72bceaf4a37528fa277b2", 
+        "updated_datetime": "2022-02-08T00:01:17.742098-06:00", 
+        "file_id": "eda0a662-1589-4e97-865b-1aa191a92f72", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }, 
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "a6f8ca20-6e1f-42e9-9e9e-af914cdaf8a7.wxs.Pindel.aliquot.maf.gz", 
+        "submitter_id": "515d846d-ab17-4631-9be1-1b3656ef0f08", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 211341, 
+        "created_datetime": "2022-02-04T18:36:45.567849-06:00", 
+        "md5sum": "97fd1164a1e68e0dea4410f3ae0733a9", 
+        "updated_datetime": "2022-02-08T00:01:17.742098-06:00", 
+        "file_id": "8fa2367c-08ed-48e6-830b-f48b8f0ff3c6", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }, 
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "3b8c9243-f0d1-4223-8d67-6a7fef19a9e4.wxs.MuSE.aliquot.maf.gz", 
+        "submitter_id": "7ac6f527-2aa8-416d-a4ba-34822a1d9aff", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 350664, 
+        "created_datetime": "2022-02-04T17:30:13.622244-06:00", 
+        "md5sum": "6a4ecd849ec61311d8e7cafe74dc0f60", 
+        "updated_datetime": "2022-02-08T00:01:17.742098-06:00", 
+        "file_id": "adbfdb42-f9ee-4068-bd90-596c5ff4ff46", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }
+    ], 
+    "updated_datetime": "2022-08-01T12:30:39.157883-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/aliquot-maf-cwl/blob/3dd621a8745ee2b91716911604bf3f096337a9b7/ensemble_aliquot_maf/ensemble_aliquot_maf_wf.cwl", 
+    "submitter_id": "37718b82-57fd-43dd-9d64-f74198e25292", 
+    "state": "released", 
+    "workflow_type": "Aliquot Ensemble Somatic Variant Merging and Masking", 
+    "analysis_id": "0444760b-f6c7-4858-ac3e-0dff016b5b48", 
+    "created_datetime": "2022-02-04T19:08:50.463113-06:00"
+  }, 
+  "file_size": 146685, 
+  "md5sum": "7756be25dedc8f585f47ab526e16439e", 
+  "file_id": "375b3bd6-5e82-45ab-836d-8a9eba4979c5", 
+  "data_type": "Masked Somatic Mutation", 
+  "state": "released", 
+  "experimental_strategy": "WXS"
+},{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-G2-AA3D-01A-11R-A39I-07", 
+      "entity_type": "aliquot", 
+      "case_id": "e1540865-69c2-4b60-a78e-97d0ce2957dc", 
+      "entity_id": "0c23ff84-4469-485b-b3fd-2298cd6c8e42"
+    }
+  ], 
+  "file_name": "f676396e-4927-4e80-802c-c47b5d453ca5.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "2cea4633-b7c9-40bd-a296-d1abe2f785e9", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "workflow_version": "5d8c131bbff59fb0c969217fc1d44e6d1503cd1f", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.9259318640635478, 
+        "total_reads": 115437116, 
+        "access": "controlled", 
+        "file_name": "f676396e-4927-4e80-802c-c47b5d453ca5.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.001849346, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "2ef2b8b9-7fb0-44d0-8b9b-36105e7dd5dc", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 5398271799, 
+        "created_datetime": "2021-12-13T17:05:52.604009-06:00", 
+        "average_base_quality": 36, 
+        "md5sum": "a732c1ddb9e2963b2b8efc047ced3d9a", 
+        "updated_datetime": "2023-07-12T10:41:35.685829-05:00", 
+        "file_id": "eb829003-c2c4-46d0-bebe-c88c29c1a719", 
+        "pairs_on_diff_chr": 168851, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 986, 
+        "average_read_length": 48, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2022-01-19T11:51:03.862792-06:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-rnaseq-cwl/blob/5d8c131bbff59fb0c969217fc1d44e6d1503cd1f/rnaseq-star-align/star2pass.rnaseq_harmonization.cwl", 
+    "submitter_id": "f676396e-4927-4e80-802c-c47b5d453ca5_star__counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "6280ad37-09b0-4e5b-a341-533acaad37ef", 
+    "created_datetime": "2021-12-13T17:51:26.012096-06:00"
+  }, 
+  "file_size": 4233353, 
+  "md5sum": "9f15126da5c2a0b1b018772cbb2acca4", 
+  "file_id": "860b5719-8396-47cb-b70a-016f121240fe", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "MAF", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-G2-AA3D-10A-01D-A394-08", 
+      "entity_type": "aliquot", 
+      "case_id": "e1540865-69c2-4b60-a78e-97d0ce2957dc", 
+      "entity_id": "8f43bf3f-1f85-4dfc-8f84-46f661e5ccbc"
+    }, 
+    {
+      "entity_submitter_id": "TCGA-G2-AA3D-01A-11D-A391-08", 
+      "entity_type": "aliquot", 
+      "case_id": "e1540865-69c2-4b60-a78e-97d0ce2957dc", 
+      "entity_id": "669b1715-5dd7-46bc-9fb9-b09dc4a1896a"
+    }
+  ], 
+  "file_name": "0f819290-8588-4f17-8687-b4e9a7afc70b.wxs.aliquot_ensemble_masked.maf.gz", 
+  "submitter_id": "fc37a899-8aa9-4649-b644-a7773035125f", 
+  "data_category": "Simple Nucleotide Variation", 
+  "annotations": [
+    {
+      "annotation_id": "fc1bc221-59c8-4836-9b04-28b6935894fb", 
+      "entity_submitter_id": "fc37a899-8aa9-4649-b644-a7773035125f", 
+      "notes": "Variants from SomaticSniper are not included.", 
+      "entity_type": "masked_somatic_mutation", 
+      "updated_datetime": "2022-02-28T14:40:23.952155-06:00", 
+      "state": "released", 
+      "category": "General", 
+      "classification": "Notification", 
+      "entity_id": "3bacccce-8f3a-4e58-80fc-e9e1a24220ad", 
+      "created_datetime": "2022-02-28T14:40:23.952155-06:00", 
+      "status": "Approved"
+    }
+  ], 
+  "analysis": {
+    "workflow_version": "3dd621a8745ee2b91716911604bf3f096337a9b7", 
+    "input_files": [
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "9f1c11de-32ff-431f-a6f9-931dc0c7f06a.wxs.VarScan2.aliquot.maf.gz", 
+        "submitter_id": "ba7358eb-5129-485a-9076-6709e02a5733", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 172532, 
+        "created_datetime": "2022-02-04T16:59:42.803151-06:00", 
+        "md5sum": "f6f8181fb11572ec997f57a12ff9c53a", 
+        "updated_datetime": "2022-02-08T00:01:17.742098-06:00", 
+        "file_id": "9db5c0f7-e72c-4457-b597-b42dfc302673", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }, 
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "375f7a35-c41d-4b53-be59-c7eda9dc4ed3.wxs.MuTect2.aliquot.maf.gz", 
+        "submitter_id": "d9d72871-a702-43d8-8f15-429094998d86", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 948699, 
+        "created_datetime": "2022-02-04T16:59:49.038995-06:00", 
+        "md5sum": "e8e5273b24af5147d9b97f699851750a", 
+        "updated_datetime": "2022-02-08T00:01:17.742098-06:00", 
+        "file_id": "d59e3789-9783-4a37-9ff0-d8b45837e7eb", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }, 
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "e7277dc2-607d-434c-bf61-2e309a667957.wxs.MuSE.aliquot.maf.gz", 
+        "submitter_id": "922d28eb-5934-4f43-9b1b-08ac07af4a52", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 222177, 
+        "created_datetime": "2022-02-04T16:59:52.429118-06:00", 
+        "md5sum": "ca773caac1704a14c71322a2c6fe7b6f", 
+        "updated_datetime": "2022-02-08T00:01:17.742098-06:00", 
+        "file_id": "f630b54e-9147-41ed-8b8b-dec873bcdc38", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }, 
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "ddfb4f02-28b6-4e25-bc6a-7f3ed824f088.wxs.Pindel.aliquot.maf.gz", 
+        "submitter_id": "42448406-6b0a-4c21-af67-c2f976bf8803", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 24395, 
+        "created_datetime": "2022-02-04T18:32:46.970106-06:00", 
+        "md5sum": "b99d2920cac0212057f6a2dfa7c3e18d", 
+        "updated_datetime": "2022-02-08T00:01:17.742098-06:00", 
+        "file_id": "1e837476-1c8f-433d-b45c-6fb021aa5c8a", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }
+    ], 
+    "updated_datetime": "2022-08-01T12:28:50.749620-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/aliquot-maf-cwl/blob/3dd621a8745ee2b91716911604bf3f096337a9b7/ensemble_aliquot_maf/ensemble_aliquot_maf_wf.cwl", 
+    "submitter_id": "0f819290-8588-4f17-8687-b4e9a7afc70b", 
+    "state": "released", 
+    "workflow_type": "Aliquot Ensemble Somatic Variant Merging and Masking", 
+    "analysis_id": "0aefc3eb-3684-481b-907a-d4938e7cebfe", 
+    "created_datetime": "2022-02-04T19:05:41.743460-06:00"
+  }, 
+  "file_size": 79466, 
+  "md5sum": "e9fae74bf7bba106ab8a47826dd4b0de", 
+  "file_id": "3bacccce-8f3a-4e58-80fc-e9e1a24220ad", 
+  "data_type": "Masked Somatic Mutation", 
+  "state": "released", 
+  "experimental_strategy": "WXS"
+},{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-85-8479-01A-11R-2326-07", 
+      "entity_type": "aliquot", 
+      "case_id": "806e9c81-a76f-42d1-bc4d-8687b950b980", 
+      "entity_id": "d3452656-5eac-4d9f-9351-74f1128eb057"
+    }
+  ], 
+  "file_name": "947d262c-5ccf-413a-868f-16ed7005a46b.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "f79b0170-b5cb-4153-b918-ab6d148cedb2", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "workflow_version": "5d8c131bbff59fb0c969217fc1d44e6d1503cd1f", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.9838837789151527, 
+        "total_reads": 128030882, 
+        "access": "controlled", 
+        "file_name": "947d262c-5ccf-413a-868f-16ed7005a46b.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.002239298, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "0fa55ddc-11da-4a2c-981d-f509909adc41", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 6899639910, 
+        "created_datetime": "2021-12-13T17:56:40.010246-06:00", 
+        "average_base_quality": 37, 
+        "md5sum": "59acbbd326045e3317ac996fffe0d096", 
+        "updated_datetime": "2023-07-12T10:43:03.003252-05:00", 
+        "file_id": "3a8a7d10-7586-41f4-9bde-76e462e9dbc2", 
+        "pairs_on_diff_chr": 273658, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 1016, 
+        "average_read_length": 48, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2022-01-19T13:48:50.358334-06:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-rnaseq-cwl/blob/5d8c131bbff59fb0c969217fc1d44e6d1503cd1f/rnaseq-star-align/star2pass.rnaseq_harmonization.cwl", 
+    "submitter_id": "947d262c-5ccf-413a-868f-16ed7005a46b_star__counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "0a425d01-441a-4755-9b83-9985b898fdbd", 
+    "created_datetime": "2021-12-13T19:22:54.567101-06:00"
+  }, 
+  "file_size": 4235954, 
+  "md5sum": "9038ab5d116323307fb49b9993b5f04c", 
+  "file_id": "f514f386-f7e8-4771-8d22-48430740328e", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-85-8071-01A-11R-2247-07", 
+      "entity_type": "aliquot", 
+      "case_id": "c652350b-9e6c-421d-8027-8b8819e4ac6c", 
+      "entity_id": "a77afb11-3c0e-411b-b34b-84f827478e03"
+    }
+  ], 
+  "file_name": "08607841-6e14-4f93-ab7c-9baa9554ed44.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "f9e72a7b-2ffc-4932-a06e-c85c8ccbc002", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "workflow_version": "5d8c131bbff59fb0c969217fc1d44e6d1503cd1f", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.9779634691123892, 
+        "total_reads": 72151874, 
+        "access": "controlled", 
+        "file_name": "08607841-6e14-4f93-ab7c-9baa9554ed44.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.002721652, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "a2223d11-21fb-44ea-81a4-b1614438d871", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 3749409217, 
+        "created_datetime": "2021-12-13T18:14:11.088592-06:00", 
+        "average_base_quality": 38, 
+        "md5sum": "267b5a83f97909c821a55a245d041329", 
+        "updated_datetime": "2023-07-12T10:43:03.003252-05:00", 
+        "file_id": "808f771a-914a-4cdc-92bf-be6622ade032", 
+        "pairs_on_diff_chr": 370289, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 1486, 
+        "average_read_length": 48, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2022-01-19T13:48:50.358334-06:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-rnaseq-cwl/blob/5d8c131bbff59fb0c969217fc1d44e6d1503cd1f/rnaseq-star-align/star2pass.rnaseq_harmonization.cwl", 
+    "submitter_id": "08607841-6e14-4f93-ab7c-9baa9554ed44_star__counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "3ba26ff5-c5a5-4054-8933-262907a72719", 
+    "created_datetime": "2021-12-13T19:27:32.320590-06:00"
+  }, 
+  "file_size": 4224934, 
+  "md5sum": "25350431a809a44b8feaccf5df665716", 
+  "file_id": "cc058884-41cd-45d1-b0af-ed0ed1655368", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-18-3417-01A-01R-1443-07", 
+      "entity_type": "aliquot", 
+      "case_id": "e28cbc9a-aa60-4bfb-8d89-8c33ee97f560", 
+      "entity_id": "608a1e43-d38c-498f-99d8-e5539d43b636"
+    }
+  ], 
+  "file_name": "b949ed76-60a2-4a59-b14f-0d215e69b71b.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "24d7f21e-a7d8-4002-8ebf-388ee7c146d3", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "workflow_version": "5d8c131bbff59fb0c969217fc1d44e6d1503cd1f", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.9649939403627356, 
+        "total_reads": 59805560, 
+        "access": "controlled", 
+        "file_name": "b949ed76-60a2-4a59-b14f-0d215e69b71b.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.002746593, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "15cbd914-532f-4948-8e86-49002d077841", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 2832710781, 
+        "created_datetime": "2021-12-13T18:24:18.520055-06:00", 
+        "average_base_quality": 37, 
+        "md5sum": "78904ea962cc6fe74edb4ba453627065", 
+        "updated_datetime": "2023-07-12T10:43:03.003252-05:00", 
+        "file_id": "1a5110f6-0df8-458f-8074-9392cd21a630", 
+        "pairs_on_diff_chr": 229892, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 1465, 
+        "average_read_length": 50, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2022-01-19T13:48:50.358334-06:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-rnaseq-cwl/blob/5d8c131bbff59fb0c969217fc1d44e6d1503cd1f/rnaseq-star-align/star2pass.rnaseq_harmonization.cwl", 
+    "submitter_id": "b949ed76-60a2-4a59-b14f-0d215e69b71b_star__counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "2b913a27-b42e-4a6c-9b91-0d3405bbc0f9", 
+    "created_datetime": "2021-12-13T19:30:41.237185-06:00"
+  }, 
+  "file_size": 4203218, 
+  "md5sum": "c04bd756c82c4766f98087ace39716ee", 
+  "file_id": "7b27b23a-d94c-4a9e-bf22-d8209a4bc6ef", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "MAF", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-18-3417-11A-01D-1441-08", 
+      "entity_type": "aliquot", 
+      "case_id": "e28cbc9a-aa60-4bfb-8d89-8c33ee97f560", 
+      "entity_id": "c75bcb71-2c05-4efd-9e2c-6d6615d2b3b5"
+    }, 
+    {
+      "entity_submitter_id": "TCGA-18-3417-01A-01D-1441-08", 
+      "entity_type": "aliquot", 
+      "case_id": "e28cbc9a-aa60-4bfb-8d89-8c33ee97f560", 
+      "entity_id": "024d8a82-06c5-4b82-9a27-c52bc4fd450a"
+    }
+  ], 
+  "file_name": "a899adcf-170f-49e3-b94f-53fcfcf6fcf7.wxs.aliquot_ensemble_masked.maf.gz", 
+  "submitter_id": "e30db74e-11e6-4598-b667-a36cc8224422", 
+  "data_category": "Simple Nucleotide Variation", 
+  "annotations": [
+    {
+      "annotation_id": "fe18e0d9-812d-4e43-bbfa-143f11c3b843", 
+      "entity_submitter_id": "e30db74e-11e6-4598-b667-a36cc8224422", 
+      "notes": "Variants from SomaticSniper are not included.", 
+      "entity_type": "masked_somatic_mutation", 
+      "updated_datetime": "2022-02-28T16:07:21.742174-06:00", 
+      "case_id": "e28cbc9a-aa60-4bfb-8d89-8c33ee97f560", 
+      "state": "released", 
+      "category": "General", 
+      "classification": "Notification", 
+      "entity_id": "905dfe42-8d45-4d60-94ba-79211e2d977e", 
+      "created_datetime": "2022-02-28T16:07:21.742174-06:00", 
+      "status": "Approved"
+    }
+  ], 
+  "analysis": {
+    "workflow_version": "3dd621a8745ee2b91716911604bf3f096337a9b7", 
+    "input_files": [
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "c64915e9-c462-49d1-876c-d8b5a55e3808.wxs.MuSE.aliquot.maf.gz", 
+        "submitter_id": "12f8774a-6d69-43d4-9ff6-02a408c9de09", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 293150, 
+        "created_datetime": "2022-02-03T19:35:26.419532-06:00", 
+        "md5sum": "b0b795e1d83fe40456bcc57c0cce07ea", 
+        "updated_datetime": "2022-02-07T21:12:35.820138-06:00", 
+        "file_id": "3c569c6d-830c-4271-9c02-64215dcbb0b9", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }, 
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "508dbee2-5d56-40e4-a878-dff7d739bafa.wxs.Pindel.aliquot.maf.gz", 
+        "submitter_id": "b4b4f723-cceb-4614-9fae-91b39c4341d6", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 55535, 
+        "created_datetime": "2022-02-03T22:05:50.490165-06:00", 
+        "md5sum": "2c983a2cf1af37f6efe24b824f9fb77f", 
+        "updated_datetime": "2022-02-07T21:12:35.820138-06:00", 
+        "file_id": "d900a06b-498e-4bd2-8932-c8677070e1da", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }, 
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "debd58f2-13ce-45f7-9e4d-413845305c4c.wxs.VarScan2.aliquot.maf.gz", 
+        "submitter_id": "ff6f9501-9220-4605-b76e-54940e6640c8", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 332899, 
+        "created_datetime": "2022-02-03T19:35:14.672620-06:00", 
+        "md5sum": "f9cba696393d844fecf96f6741fbb2f8", 
+        "updated_datetime": "2022-02-07T21:12:35.820138-06:00", 
+        "file_id": "eb6eca70-5e95-40d0-9bd9-1e6c08fca7b3", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }, 
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "daea1b88-de62-4555-8719-084b79712101.wxs.MuTect2.aliquot.maf.gz", 
+        "submitter_id": "eba20573-b4dd-47cc-9cd5-31ea87598b71", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 1654686, 
+        "created_datetime": "2022-02-03T19:35:20.932914-06:00", 
+        "md5sum": "d92549cb0014ce70606cae6af4395939", 
+        "updated_datetime": "2022-02-07T21:12:35.820138-06:00", 
+        "file_id": "daa6c2fd-9445-4ea9-b3b1-3e85ad0035b0", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }
+    ], 
+    "updated_datetime": "2022-08-01T16:18:06.619717-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/aliquot-maf-cwl/blob/3dd621a8745ee2b91716911604bf3f096337a9b7/ensemble_aliquot_maf/ensemble_aliquot_maf_wf.cwl", 
+    "submitter_id": "a899adcf-170f-49e3-b94f-53fcfcf6fcf7", 
+    "state": "released", 
+    "workflow_type": "Aliquot Ensemble Somatic Variant Merging and Masking", 
+    "analysis_id": "d999e45a-b14e-4b23-a93e-5b210967abd4", 
+    "created_datetime": "2022-02-03T22:40:37.002288-06:00"
+  }, 
+  "file_size": 97946, 
+  "md5sum": "9655c06d0ff4c0d63c389c8581e7f26c", 
+  "file_id": "905dfe42-8d45-4d60-94ba-79211e2d977e", 
+  "data_type": "Masked Somatic Mutation", 
+  "state": "released", 
+  "experimental_strategy": "WXS"
+},{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-39-5039-01A-01R-1443-07", 
+      "entity_type": "aliquot", 
+      "case_id": "ffb83f21-06d9-4e52-a2d0-e85c13f4037f", 
+      "entity_id": "ae96337f-1b6e-41e6-8045-35f4adec76f4"
+    }
+  ], 
+  "file_name": "b9a5766c-e155-423e-a075-10fb14fe87df.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "e05927d5-d47c-47b5-82c3-a039056df5ac", 
+  "data_category": "Transcriptome Profiling", 
+  "annotations": [
+    {
+      "entity_submitter_id": "TCGA-39-5039", 
+      "notes": "[intgen.org]: Subject has Hx of prior malignancy", 
+      "submitter_id": "1188", 
+      "classification": "Notification", 
+      "entity_id": "ffb83f21-06d9-4e52-a2d0-e85c13f4037f", 
+      "created_datetime": "2011-01-09T00:00:00", 
+      "annotation_id": "a49b7276-b360-5867-9a75-59350b737740", 
+      "entity_type": "case", 
+      "updated_datetime": "2018-08-23T16:32:20.747393-05:00", 
+      "case_id": "ffb83f21-06d9-4e52-a2d0-e85c13f4037f", 
+      "state": "released", 
+      "category": "Prior malignancy", 
+      "status": "Approved"
+    }, 
+    {
+      "entity_submitter_id": "TCGA-39-5039", 
+      "notes": "Prior malignancy  prostate cancer, treated with hormone therapy and locoregional radiation.", 
+      "submitter_id": "11943", 
+      "classification": "Notification", 
+      "entity_id": "ffb83f21-06d9-4e52-a2d0-e85c13f4037f", 
+      "created_datetime": "2012-11-10T00:00:00", 
+      "annotation_id": "fef92597-63c1-5a82-b856-8af1660cdec2", 
+      "entity_type": "case", 
+      "updated_datetime": "2018-08-23T16:32:20.747393-05:00", 
+      "case_id": "ffb83f21-06d9-4e52-a2d0-e85c13f4037f", 
+      "state": "released", 
+      "category": "History of acceptable prior treatment related to a prior/other malignancy", 
+      "status": "Approved"
+    }
+  ], 
+  "analysis": {
+    "workflow_version": "5d8c131bbff59fb0c969217fc1d44e6d1503cd1f", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.9599558988804006, 
+        "total_reads": 94895550, 
+        "access": "controlled", 
+        "file_name": "b9a5766c-e155-423e-a075-10fb14fe87df.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.004515638, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "f34777d7-1dc3-473e-b72d-8f60e4be0554", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 4945064861, 
+        "created_datetime": "2021-12-13T18:11:26.575962-06:00", 
+        "average_base_quality": 35, 
+        "md5sum": "350830f59c5e4950256d115f82ef0aa6", 
+        "updated_datetime": "2023-07-12T10:43:03.003252-05:00", 
+        "file_id": "93df76ba-5310-4f86-ae3c-389b715a83c3", 
+        "pairs_on_diff_chr": 543819, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 1517, 
+        "average_read_length": 50, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2022-01-19T13:48:50.358334-06:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-rnaseq-cwl/blob/5d8c131bbff59fb0c969217fc1d44e6d1503cd1f/rnaseq-star-align/star2pass.rnaseq_harmonization.cwl", 
+    "submitter_id": "b9a5766c-e155-423e-a075-10fb14fe87df_star__counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "6915abf8-05df-4a97-a19c-2d081511cca1", 
+    "created_datetime": "2021-12-13T19:26:51.018407-06:00"
+  }, 
+  "file_size": 4227153, 
+  "md5sum": "884eeaa5daa609312d1cc7a362bae463", 
+  "file_id": "75969880-a360-4e72-afe4-752dd6f04289", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "MAF", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-39-5039-01A-01D-1441-08", 
+      "entity_type": "aliquot", 
+      "case_id": "ffb83f21-06d9-4e52-a2d0-e85c13f4037f", 
+      "entity_id": "0c14e914-abd4-4406-be82-a810b10a1320"
+    }, 
+    {
+      "entity_submitter_id": "TCGA-39-5039-11A-01D-1441-08", 
+      "entity_type": "aliquot", 
+      "case_id": "ffb83f21-06d9-4e52-a2d0-e85c13f4037f", 
+      "entity_id": "102b74a1-6b90-4599-abf6-43a8259b5027"
+    }
+  ], 
+  "file_name": "1382c70a-a8f9-4ac2-b955-8a74c7f53a37.wxs.aliquot_ensemble_masked.maf.gz", 
+  "submitter_id": "23a7d79b-07f0-470b-a00c-0ceacce71202", 
+  "data_category": "Simple Nucleotide Variation", 
+  "annotations": [
+    {
+      "annotation_id": "64936f3e-e13b-4355-ad81-636e1c9e31dc", 
+      "entity_submitter_id": "23a7d79b-07f0-470b-a00c-0ceacce71202", 
+      "notes": "Variants from SomaticSniper are not included.", 
+      "entity_type": "masked_somatic_mutation", 
+      "updated_datetime": "2022-02-28T16:07:27.758746-06:00", 
+      "case_id": "ffb83f21-06d9-4e52-a2d0-e85c13f4037f", 
+      "state": "released", 
+      "category": "General", 
+      "classification": "Notification", 
+      "entity_id": "abe0247c-e729-49ec-aaa5-63e6bf7d5227", 
+      "created_datetime": "2022-02-28T16:07:27.758746-06:00", 
+      "status": "Approved"
+    }, 
+    {
+      "entity_submitter_id": "TCGA-39-5039", 
+      "notes": "[intgen.org]: Subject has Hx of prior malignancy", 
+      "submitter_id": "1188", 
+      "classification": "Notification", 
+      "entity_id": "ffb83f21-06d9-4e52-a2d0-e85c13f4037f", 
+      "created_datetime": "2011-01-09T00:00:00", 
+      "annotation_id": "a49b7276-b360-5867-9a75-59350b737740", 
+      "entity_type": "case", 
+      "updated_datetime": "2018-08-23T16:32:20.747393-05:00", 
+      "case_id": "ffb83f21-06d9-4e52-a2d0-e85c13f4037f", 
+      "state": "released", 
+      "category": "Prior malignancy", 
+      "status": "Approved"
+    }, 
+    {
+      "entity_submitter_id": "TCGA-39-5039", 
+      "notes": "Prior malignancy  prostate cancer, treated with hormone therapy and locoregional radiation.", 
+      "submitter_id": "11943", 
+      "classification": "Notification", 
+      "entity_id": "ffb83f21-06d9-4e52-a2d0-e85c13f4037f", 
+      "created_datetime": "2012-11-10T00:00:00", 
+      "annotation_id": "fef92597-63c1-5a82-b856-8af1660cdec2", 
+      "entity_type": "case", 
+      "updated_datetime": "2018-08-23T16:32:20.747393-05:00", 
+      "case_id": "ffb83f21-06d9-4e52-a2d0-e85c13f4037f", 
+      "state": "released", 
+      "category": "History of acceptable prior treatment related to a prior/other malignancy", 
+      "status": "Approved"
+    }
+  ], 
+  "analysis": {
+    "workflow_version": "3dd621a8745ee2b91716911604bf3f096337a9b7", 
+    "input_files": [
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "c6ad0814-f414-408b-985a-7a003df9130f.wxs.Pindel.aliquot.maf.gz", 
+        "submitter_id": "28e6d999-86a1-400c-a49e-dde9101d4d20", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 55859, 
+        "created_datetime": "2022-02-03T22:17:53.679815-06:00", 
+        "md5sum": "d89afaec46402ca31eea1cf972604b16", 
+        "updated_datetime": "2022-02-07T21:12:35.820138-06:00", 
+        "file_id": "1e425938-0452-454a-badd-72875c865be2", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }, 
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "1d72949f-f083-4932-85a4-7762770a36ee.wxs.MuSE.aliquot.maf.gz", 
+        "submitter_id": "69325267-5c41-4e0b-84c3-76dac22c8458", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 233730, 
+        "created_datetime": "2022-02-03T20:37:42.080652-06:00", 
+        "md5sum": "b7a8ef8381c2e8f807504d7fcc07f71c", 
+        "updated_datetime": "2022-02-07T21:12:35.820138-06:00", 
+        "file_id": "6afb4fa8-be4b-4ccb-b68e-b4cba0b11d06", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }, 
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "7de66fc3-b065-4a41-b315-6d49391c0621.wxs.VarScan2.aliquot.maf.gz", 
+        "submitter_id": "7668112e-be4f-4aa9-b692-0d5d562c07d7", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 228251, 
+        "created_datetime": "2022-02-03T20:37:32.323883-06:00", 
+        "md5sum": "d4463ab0ea6420c94091ec954a570057", 
+        "updated_datetime": "2022-02-07T21:12:35.820138-06:00", 
+        "file_id": "bff03928-ad09-4c1d-b652-aa3674b96bc2", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }, 
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "222a648c-2210-4a92-b480-f508c48d7156.wxs.MuTect2.aliquot.maf.gz", 
+        "submitter_id": "8b261aa7-2e33-49d7-9c91-839d51f98882", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 1630970, 
+        "created_datetime": "2022-02-03T20:37:37.033849-06:00", 
+        "md5sum": "ef45ed70c14756c58b97a073ef847af0", 
+        "updated_datetime": "2022-02-07T21:12:35.820138-06:00", 
+        "file_id": "c9680993-0ee0-4c7a-bf75-3a56785d06dc", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }
+    ], 
+    "updated_datetime": "2022-08-01T16:21:32.826192-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/aliquot-maf-cwl/blob/3dd621a8745ee2b91716911604bf3f096337a9b7/ensemble_aliquot_maf/ensemble_aliquot_maf_wf.cwl", 
+    "submitter_id": "1382c70a-a8f9-4ac2-b955-8a74c7f53a37", 
+    "state": "released", 
+    "workflow_type": "Aliquot Ensemble Somatic Variant Merging and Masking", 
+    "analysis_id": "1d6e4f0d-bb79-452d-a6d4-472b596b9b58", 
+    "created_datetime": "2022-02-03T22:49:29.339245-06:00"
+  }, 
+  "file_size": 61235, 
+  "md5sum": "80dab91ddfa45a173632781f37c7eb95", 
+  "file_id": "abe0247c-e729-49ec-aaa5-63e6bf7d5227", 
+  "data_type": "Masked Somatic Mutation", 
+  "state": "released", 
+  "experimental_strategy": "WXS"
+},{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-21-A5DI-01A-31R-A26W-07", 
+      "entity_type": "aliquot", 
+      "case_id": "a7cd7b0f-ab76-4f3f-a2d5-5ec04fe6c4f3", 
+      "entity_id": "3a7a9459-d88c-4d0b-b32f-1623deba6cea"
+    }
+  ], 
+  "file_name": "9b86812f-b1ee-4b6d-9691-8587f2487c4a.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "a7416900-56e6-4f15-b767-022ace52cedf", 
+  "data_category": "Transcriptome Profiling", 
+  "annotations": [
+    {
+      "entity_submitter_id": "TCGA-21-A5DI", 
+      "notes": "unknown treatment history", 
+      "submitter_id": "20737", 
+      "classification": "Notification", 
+      "entity_id": "a7cd7b0f-ab76-4f3f-a2d5-5ec04fe6c4f3", 
+      "created_datetime": "2014-06-16T00:00:00", 
+      "annotation_id": "138ee9d9-fe15-5530-ac8a-aa9d51b43d57", 
+      "entity_type": "case", 
+      "updated_datetime": "2018-08-23T16:28:11.210272-05:00", 
+      "case_id": "a7cd7b0f-ab76-4f3f-a2d5-5ec04fe6c4f3", 
+      "state": "released", 
+      "category": "History of unacceptable prior treatment related to a prior/other malignancy", 
+      "status": "Approved"
+    }
+  ], 
+  "analysis": {
+    "workflow_version": "5d8c131bbff59fb0c969217fc1d44e6d1503cd1f", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.9851684478720142, 
+        "total_reads": 80924976, 
+        "access": "controlled", 
+        "file_name": "9b86812f-b1ee-4b6d-9691-8587f2487c4a.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.003217119, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "71d40ca5-2ff9-4acd-871d-90e9789f1419", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 4594040770, 
+        "created_datetime": "2021-12-13T18:10:13.766831-06:00", 
+        "average_base_quality": 36, 
+        "md5sum": "b53698d740df9e51c14c320d93d23713", 
+        "updated_datetime": "2023-07-12T10:43:03.003252-05:00", 
+        "file_id": "4af2e95d-d45b-441f-89c0-5ddf4da401b6", 
+        "pairs_on_diff_chr": 140389, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 1104, 
+        "average_read_length": 48, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2022-01-19T13:48:50.358334-06:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-rnaseq-cwl/blob/5d8c131bbff59fb0c969217fc1d44e6d1503cd1f/rnaseq-star-align/star2pass.rnaseq_harmonization.cwl", 
+    "submitter_id": "9b86812f-b1ee-4b6d-9691-8587f2487c4a_star__counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "f2cc17b3-2990-4130-ab3d-4f50cef615fa", 
+    "created_datetime": "2021-12-13T19:26:31.448611-06:00"
+  }, 
+  "file_size": 4223293, 
+  "md5sum": "c9b3862c3032bfe4eba1fc1161bd05d8", 
+  "file_id": "da8679e6-96fc-4874-83c8-a3e3b0fe20d4", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "MAF", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-21-A5DI-01A-31D-A26M-08", 
+      "entity_type": "aliquot", 
+      "case_id": "a7cd7b0f-ab76-4f3f-a2d5-5ec04fe6c4f3", 
+      "entity_id": "433c38f0-b173-4a9b-b366-d1585052b4b3"
+    }, 
+    {
+      "entity_submitter_id": "TCGA-21-A5DI-10A-01D-A26K-08", 
+      "entity_type": "aliquot", 
+      "case_id": "a7cd7b0f-ab76-4f3f-a2d5-5ec04fe6c4f3", 
+      "entity_id": "ba390e25-b4a0-4f90-8e57-8ea1ba648d11"
+    }
+  ], 
+  "file_name": "28359c41-11ef-49fa-8492-908f1ae94f71.wxs.aliquot_ensemble_masked.maf.gz", 
+  "submitter_id": "90d05e9c-8954-426c-82a6-86bd1bd683d2", 
+  "data_category": "Simple Nucleotide Variation", 
+  "annotations": [
+    {
+      "annotation_id": "d8254162-30fc-413e-89c4-77739418a455", 
+      "entity_submitter_id": "90d05e9c-8954-426c-82a6-86bd1bd683d2", 
+      "notes": "Variants from SomaticSniper are not included.", 
+      "entity_type": "masked_somatic_mutation", 
+      "updated_datetime": "2022-02-28T16:01:13.351101-06:00", 
+      "state": "released", 
+      "category": "General", 
+      "classification": "Notification", 
+      "entity_id": "2b0cc3f6-f655-432b-9858-393c4474e83a", 
+      "created_datetime": "2022-02-28T16:01:13.351101-06:00", 
+      "status": "Approved"
+    }, 
+    {
+      "entity_submitter_id": "TCGA-21-A5DI", 
+      "notes": "unknown treatment history", 
+      "submitter_id": "20737", 
+      "classification": "Notification", 
+      "entity_id": "a7cd7b0f-ab76-4f3f-a2d5-5ec04fe6c4f3", 
+      "created_datetime": "2014-06-16T00:00:00", 
+      "annotation_id": "138ee9d9-fe15-5530-ac8a-aa9d51b43d57", 
+      "entity_type": "case", 
+      "updated_datetime": "2018-08-23T16:28:11.210272-05:00", 
+      "case_id": "a7cd7b0f-ab76-4f3f-a2d5-5ec04fe6c4f3", 
+      "state": "released", 
+      "category": "History of unacceptable prior treatment related to a prior/other malignancy", 
+      "status": "Approved"
+    }
+  ], 
+  "analysis": {
+    "workflow_version": "3dd621a8745ee2b91716911604bf3f096337a9b7", 
+    "input_files": [
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "519181d4-71e9-4d7c-bf9b-f3f480ea0393.wxs.Pindel.aliquot.maf.gz", 
+        "submitter_id": "920f5d1d-1191-4da7-8268-53caee15f898", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 25277, 
+        "created_datetime": "2022-02-03T22:03:36.808162-06:00", 
+        "md5sum": "303060265920c731e594465ff23bf517", 
+        "updated_datetime": "2022-02-07T21:12:35.820138-06:00", 
+        "file_id": "562908cd-f3f3-453c-88c3-f09bf6d638c3", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }, 
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "3d9c6276-9125-484c-bc18-eb2fff3df78e.wxs.MuSE.aliquot.maf.gz", 
+        "submitter_id": "cc3605da-dd3f-4d9f-a1eb-ce55c91de042", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 157333, 
+        "created_datetime": "2022-02-03T19:19:51.221335-06:00", 
+        "md5sum": "b660d1988e2ee16d2823143268b7259a", 
+        "updated_datetime": "2022-02-07T21:12:35.820138-06:00", 
+        "file_id": "081e05fa-9436-47a6-b0ab-401f19cadf9b", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }, 
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "76b83add-7a81-48a4-b276-b26d46f59756.wxs.VarScan2.aliquot.maf.gz", 
+        "submitter_id": "c5113aef-400e-452c-bf43-57cb86ba7bd1", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 168486, 
+        "created_datetime": "2022-02-03T19:19:56.997551-06:00", 
+        "md5sum": "90865bd74f570a1d389ce6a92869ecfe", 
+        "updated_datetime": "2022-02-07T21:12:35.820138-06:00", 
+        "file_id": "26246146-a3b0-41e1-9b93-ab8fbaa119b5", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }, 
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "d82d0238-a3dc-48e9-b791-cd19931961b4.wxs.MuTect2.aliquot.maf.gz", 
+        "submitter_id": "d919b0cd-a263-4c4e-8d4a-8f565629275a", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 1172890, 
+        "created_datetime": "2022-02-03T19:20:08.646859-06:00", 
+        "md5sum": "395eb41de35d604a308a5dd4461e793c", 
+        "updated_datetime": "2022-02-07T21:12:35.820138-06:00", 
+        "file_id": "7457238a-adc7-41ec-9680-d6ab0496e388", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }
+    ], 
+    "updated_datetime": "2022-08-01T16:25:56.265849-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/aliquot-maf-cwl/blob/3dd621a8745ee2b91716911604bf3f096337a9b7/ensemble_aliquot_maf/ensemble_aliquot_maf_wf.cwl", 
+    "submitter_id": "28359c41-11ef-49fa-8492-908f1ae94f71", 
+    "state": "released", 
+    "workflow_type": "Aliquot Ensemble Somatic Variant Merging and Masking", 
+    "analysis_id": "1b823e1a-60f5-4b4e-b2ee-9d44f064fa85", 
+    "created_datetime": "2022-02-03T22:38:41.158947-06:00"
+  }, 
+  "file_size": 54483, 
+  "md5sum": "7fa30761ca14d2faf3c0494cf079c77c", 
+  "file_id": "2b0cc3f6-f655-432b-9858-393c4474e83a", 
+  "data_type": "Masked Somatic Mutation", 
+  "state": "released", 
+  "experimental_strategy": "WXS"
+},{
+  "data_format": "MAF", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-33-6738-01A-11D-1945-08", 
+      "entity_type": "aliquot", 
+      "case_id": "cb6065de-0fc2-40e6-9609-179dfc54943f", 
+      "entity_id": "7b6d5adf-b85f-4197-93bb-ba77e9462b15"
+    }, 
+    {
+      "entity_submitter_id": "TCGA-33-6738-11A-02D-1945-08", 
+      "entity_type": "aliquot", 
+      "case_id": "cb6065de-0fc2-40e6-9609-179dfc54943f", 
+      "entity_id": "a10b6ba1-839a-47e9-bdc6-c35de2906508"
+    }
+  ], 
+  "file_name": "2897700d-350b-4288-8d03-53aa44a11278.wxs.aliquot_ensemble_masked.maf.gz", 
+  "submitter_id": "2e9e17e6-5116-480f-affa-cb9c5c99ef05", 
+  "data_category": "Simple Nucleotide Variation", 
+  "annotations": [
+    {
+      "annotation_id": "65deb99f-2486-4020-9b67-008106eeed1a", 
+      "entity_submitter_id": "2e9e17e6-5116-480f-affa-cb9c5c99ef05", 
+      "notes": "Variants from SomaticSniper are not included.", 
+      "entity_type": "masked_somatic_mutation", 
+      "updated_datetime": "2022-02-28T16:04:24.576571-06:00", 
+      "state": "released", 
+      "category": "General", 
+      "classification": "Notification", 
+      "entity_id": "0806696e-ae4f-4dec-8a4a-c955616bd2a6", 
+      "created_datetime": "2022-02-28T16:04:24.576571-06:00", 
+      "status": "Approved"
+    }
+  ], 
+  "analysis": {
+    "workflow_version": "3dd621a8745ee2b91716911604bf3f096337a9b7", 
+    "input_files": [
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "4832da19-48e6-4b28-a414-25067c4578c6.wxs.MuSE.aliquot.maf.gz", 
+        "submitter_id": "cdce1834-21fa-489a-b9fe-32515821456f", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 309649, 
+        "created_datetime": "2022-02-03T21:26:28.929914-06:00", 
+        "md5sum": "8233f04bf640e766c892a21cd79b5543", 
+        "updated_datetime": "2022-02-07T21:12:35.820138-06:00", 
+        "file_id": "24f1988d-66ce-4754-93b6-1326e5a613f1", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }, 
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "ddaf5f48-114a-49bc-a4be-5bd8200d8a8b.wxs.MuTect2.aliquot.maf.gz", 
+        "submitter_id": "32f64ec5-e149-48ed-8441-d574697972e9", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 1217202, 
+        "created_datetime": "2022-02-03T21:26:24.355543-06:00", 
+        "md5sum": "32f7284349f0e3f5562c936e54ba37c9", 
+        "updated_datetime": "2022-02-07T21:12:35.820138-06:00", 
+        "file_id": "665a6304-1585-41b9-854c-be7e009f2237", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }, 
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "38233a73-9091-4502-856b-06302240f020.wxs.Pindel.aliquot.maf.gz", 
+        "submitter_id": "ed8f58d1-1ada-4fab-82e3-6be7062471c1", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 68820, 
+        "created_datetime": "2022-02-03T22:28:37.610479-06:00", 
+        "md5sum": "231c1e3ff2d4ba80e41634ffb428d8a2", 
+        "updated_datetime": "2022-02-07T21:12:35.820138-06:00", 
+        "file_id": "6759d7a6-c35a-41fc-85c2-78612146bf74", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }, 
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "ae8c8cdb-2601-4748-87aa-2f8e244c9f0b.wxs.VarScan2.aliquot.maf.gz", 
+        "submitter_id": "ea4b56c7-a7e0-4c03-8c15-ed0be3b56ae2", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 356851, 
+        "created_datetime": "2022-02-03T21:26:19.080859-06:00", 
+        "md5sum": "124488d32dd4ab0e669ec24c60ebf317", 
+        "updated_datetime": "2022-02-07T21:12:35.820138-06:00", 
+        "file_id": "4c7bd8d6-d57b-4176-9ad3-8a32a0447954", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }
+    ], 
+    "updated_datetime": "2022-08-01T16:32:01.484225-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/aliquot-maf-cwl/blob/3dd621a8745ee2b91716911604bf3f096337a9b7/ensemble_aliquot_maf/ensemble_aliquot_maf_wf.cwl", 
+    "submitter_id": "2897700d-350b-4288-8d03-53aa44a11278", 
+    "state": "released", 
+    "workflow_type": "Aliquot Ensemble Somatic Variant Merging and Masking", 
+    "analysis_id": "25490b56-25c8-4965-8013-6fc12e2783c3", 
+    "created_datetime": "2022-02-03T22:56:39.241120-06:00"
+  }, 
+  "file_size": 118742, 
+  "md5sum": "91aa7e7293f0cf3394ef509cc1371ed1", 
+  "file_id": "0806696e-ae4f-4dec-8a4a-c955616bd2a6", 
+  "data_type": "Masked Somatic Mutation", 
+  "state": "released", 
+  "experimental_strategy": "WXS"
+},{
+  "data_format": "MAF", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-85-8479-01A-11D-2323-08", 
+      "entity_type": "aliquot", 
+      "case_id": "806e9c81-a76f-42d1-bc4d-8687b950b980", 
+      "entity_id": "55b9c5c6-e57d-40f0-a7a9-03fd9400d367"
+    }, 
+    {
+      "entity_submitter_id": "TCGA-85-8479-10A-01D-2323-08", 
+      "entity_type": "aliquot", 
+      "case_id": "806e9c81-a76f-42d1-bc4d-8687b950b980", 
+      "entity_id": "7d642fcc-5e03-41c4-92a0-336965b05246"
+    }
+  ], 
+  "file_name": "881cab3e-c794-4513-919e-eb0f9bbdf6aa.wxs.aliquot_ensemble_masked.maf.gz", 
+  "submitter_id": "4105133f-810a-497b-8fd2-0d1bcdf3952d", 
+  "data_category": "Simple Nucleotide Variation", 
+  "annotations": [
+    {
+      "annotation_id": "d6465a65-a344-45bf-afd4-a69e4e19a291", 
+      "entity_submitter_id": "4105133f-810a-497b-8fd2-0d1bcdf3952d", 
+      "notes": "Variants from SomaticSniper are not included.", 
+      "entity_type": "masked_somatic_mutation", 
+      "updated_datetime": "2022-02-28T14:22:37.944907-06:00", 
+      "state": "released", 
+      "category": "General", 
+      "classification": "Notification", 
+      "entity_id": "3b96d6ce-5667-4922-bca9-ae6cf720842e", 
+      "created_datetime": "2022-02-28T14:22:37.944907-06:00", 
+      "status": "Approved"
+    }
+  ], 
+  "analysis": {
+    "workflow_version": "3dd621a8745ee2b91716911604bf3f096337a9b7", 
+    "input_files": [
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "14ff332c-1be2-4b68-9d09-fc679ed997d3.wxs.MuSE.aliquot.maf.gz", 
+        "submitter_id": "b69cd5cc-8e2d-4c32-a537-7f3fb38f1c43", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 141876, 
+        "created_datetime": "2022-02-03T21:11:58.875554-06:00", 
+        "md5sum": "315086531de79ce8d68a6791868a546a", 
+        "updated_datetime": "2022-02-07T21:12:35.820138-06:00", 
+        "file_id": "96043d77-bb28-4ce0-a2dc-725db979f6f6", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }, 
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "7e2c2daa-0218-43b2-850f-2e4ab4f380f9.wxs.VarScan2.aliquot.maf.gz", 
+        "submitter_id": "8e96d255-fc06-474f-ab8d-92910afd5f90", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 184621, 
+        "created_datetime": "2022-02-03T21:12:04.710046-06:00", 
+        "md5sum": "27d73ef2c9f144ebcc67a93e7e46401c", 
+        "updated_datetime": "2022-02-07T21:12:35.820138-06:00", 
+        "file_id": "63c3c083-a10d-4880-bcf2-4c2ed09b8905", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }, 
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "07aef285-8407-4ef6-89d5-5d41593a4141.wxs.Pindel.aliquot.maf.gz", 
+        "submitter_id": "0d399853-afe4-4f1a-af1f-adbb0b4fa884", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 35267, 
+        "created_datetime": "2022-02-03T22:25:17.157332-06:00", 
+        "md5sum": "db1f6bbcb12452d77fc23a8f9717d329", 
+        "updated_datetime": "2022-02-07T21:12:35.820138-06:00", 
+        "file_id": "19b830f2-6de2-401d-b5d5-2adfb70f6f12", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }, 
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "9c52d3ef-ac87-4e9a-8044-33524d0847e3.wxs.MuTect2.aliquot.maf.gz", 
+        "submitter_id": "0c988fba-27e1-4562-adfd-80c97e4cbdb4", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 960612, 
+        "created_datetime": "2022-02-03T21:12:16.478673-06:00", 
+        "md5sum": "81c248b32277d2a049e07fec2e1d7559", 
+        "updated_datetime": "2022-02-07T21:12:35.820138-06:00", 
+        "file_id": "04f516c2-ca0d-4fa6-8682-92c3116d5c8d", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }
+    ], 
+    "updated_datetime": "2022-08-01T16:17:12.313277-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/aliquot-maf-cwl/blob/3dd621a8745ee2b91716911604bf3f096337a9b7/ensemble_aliquot_maf/ensemble_aliquot_maf_wf.cwl", 
+    "submitter_id": "881cab3e-c794-4513-919e-eb0f9bbdf6aa", 
+    "state": "released", 
+    "workflow_type": "Aliquot Ensemble Somatic Variant Merging and Masking", 
+    "analysis_id": "1f558d90-6591-40e0-b047-7bb78becc47d", 
+    "created_datetime": "2022-02-03T22:54:26.570847-06:00"
+  }, 
+  "file_size": 43936, 
+  "md5sum": "1eec814ae0dd8b651f68f6d1f314e432", 
+  "file_id": "3b96d6ce-5667-4922-bca9-ae6cf720842e", 
+  "data_type": "Masked Somatic Mutation", 
+  "state": "released", 
+  "experimental_strategy": "WXS"
+},{
+  "data_format": "MAF", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-85-8071-10A-01D-2244-08", 
+      "entity_type": "aliquot", 
+      "case_id": "c652350b-9e6c-421d-8027-8b8819e4ac6c", 
+      "entity_id": "9b86a3ab-d9bf-4926-8e52-d9d907c357ef"
+    }, 
+    {
+      "entity_submitter_id": "TCGA-85-8071-01A-11D-2244-08", 
+      "entity_type": "aliquot", 
+      "case_id": "c652350b-9e6c-421d-8027-8b8819e4ac6c", 
+      "entity_id": "c86cea2f-af06-48a9-a971-2f423e37a330"
+    }
+  ], 
+  "file_name": "1523de32-ff98-4683-8668-09e4308d1e31.wxs.aliquot_ensemble_masked.maf.gz", 
+  "submitter_id": "eb71618a-6240-449e-b149-bb399552c5cc", 
+  "data_category": "Simple Nucleotide Variation", 
+  "annotations": [
+    {
+      "annotation_id": "628fc71f-3fc2-4bf3-9a20-6bb89062c287", 
+      "entity_submitter_id": "eb71618a-6240-449e-b149-bb399552c5cc", 
+      "notes": "Variants from SomaticSniper are not included.", 
+      "entity_type": "masked_somatic_mutation", 
+      "updated_datetime": "2022-02-28T16:02:01.038700-06:00", 
+      "state": "released", 
+      "category": "General", 
+      "classification": "Notification", 
+      "entity_id": "f0a087bd-b0ed-45a3-be1c-3e28be3f88ce", 
+      "created_datetime": "2022-02-28T16:02:01.038700-06:00", 
+      "status": "Approved"
+    }
+  ], 
+  "analysis": {
+    "workflow_version": "3dd621a8745ee2b91716911604bf3f096337a9b7", 
+    "input_files": [
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "f4653865-3bce-49fa-9385-21f2be53510c.wxs.Pindel.aliquot.maf.gz", 
+        "submitter_id": "ce7d61dc-00ad-415a-9491-01f3387ad428", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 33733, 
+        "created_datetime": "2022-02-03T22:20:03.897731-06:00", 
+        "md5sum": "650c2d22de29228b6a9101d946f0ab8d", 
+        "updated_datetime": "2022-02-07T21:12:35.820138-06:00", 
+        "file_id": "488c24f6-e86b-4e44-8b0d-1a4056a15e65", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }, 
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "a00935e7-ca72-4912-8e17-3e71bb6e0073.wxs.MuTect2.aliquot.maf.gz", 
+        "submitter_id": "00e129dd-6938-44de-a025-86953bff2f04", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 963532, 
+        "created_datetime": "2022-02-03T20:47:32.986092-06:00", 
+        "md5sum": "7f659a72c63c118aec6ed01cbc985d43", 
+        "updated_datetime": "2022-02-07T21:12:35.820138-06:00", 
+        "file_id": "638abf12-8280-49dd-86b3-5fdf0a7d1afc", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }, 
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "f4dc17ca-691f-4438-b984-dce349042c2d.wxs.MuSE.aliquot.maf.gz", 
+        "submitter_id": "a05435f7-0a3f-423a-bcf0-9b2e72fb2fc5", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 277555, 
+        "created_datetime": "2022-02-03T20:47:28.237381-06:00", 
+        "md5sum": "a420259902019f52b4186a51391b2e26", 
+        "updated_datetime": "2022-02-07T21:12:35.820138-06:00", 
+        "file_id": "b2282fba-9231-488e-8541-1ff54a132288", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }, 
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "81dbe583-0423-42ad-98fd-0c9f515550a6.wxs.VarScan2.aliquot.maf.gz", 
+        "submitter_id": "c7086439-d568-4d32-a98d-239d0d5ef410", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 324193, 
+        "created_datetime": "2022-02-03T20:47:42.714231-06:00", 
+        "md5sum": "d437bf4ce008c4c9d3445ea0b6616e0e", 
+        "updated_datetime": "2022-02-07T21:12:35.820138-06:00", 
+        "file_id": "3ebd630b-6e43-415a-ada2-b0cdef9b1382", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }
+    ], 
+    "updated_datetime": "2022-08-01T16:29:12.114025-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/aliquot-maf-cwl/blob/3dd621a8745ee2b91716911604bf3f096337a9b7/ensemble_aliquot_maf/ensemble_aliquot_maf_wf.cwl", 
+    "submitter_id": "1523de32-ff98-4683-8668-09e4308d1e31", 
+    "state": "released", 
+    "workflow_type": "Aliquot Ensemble Somatic Variant Merging and Masking", 
+    "analysis_id": "58df5fd8-4b54-4590-b880-d9ed848e5aff", 
+    "created_datetime": "2022-02-03T22:50:52.103622-06:00"
+  }, 
+  "file_size": 121715, 
+  "md5sum": "3576970169a16dd267b2b8cc131b4a52", 
+  "file_id": "f0a087bd-b0ed-45a3-be1c-3e28be3f88ce", 
+  "data_type": "Masked Somatic Mutation", 
+  "state": "released", 
+  "experimental_strategy": "WXS"
+},{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-33-6738-01A-11R-1949-07", 
+      "entity_type": "aliquot", 
+      "case_id": "cb6065de-0fc2-40e6-9609-179dfc54943f", 
+      "entity_id": "f62b601a-a8a2-4179-be5b-6b9548da05c2"
+    }
+  ], 
+  "file_name": "ebbbd946-8af3-464c-8bae-e9c8a889d9b3.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "729b7f30-a010-4065-a313-4758f27a907b", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "workflow_version": "5d8c131bbff59fb0c969217fc1d44e6d1503cd1f", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.9792339679958273, 
+        "total_reads": 151498370, 
+        "access": "controlled", 
+        "file_name": "ebbbd946-8af3-464c-8bae-e9c8a889d9b3.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.003189919, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "f4de01e6-dd53-4f7f-b2ed-f486f56bc7f0", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 7590518839, 
+        "created_datetime": "2021-12-13T18:17:11.584676-06:00", 
+        "average_base_quality": 38, 
+        "md5sum": "345dac0049a972c052b3ea6a8667c380", 
+        "updated_datetime": "2023-07-12T10:43:03.003252-05:00", 
+        "file_id": "a29ffbc6-ad04-467a-9e59-b1ccca59f3c5", 
+        "pairs_on_diff_chr": 325299, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 1356, 
+        "average_read_length": 50, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2022-01-19T13:48:50.358334-06:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-rnaseq-cwl/blob/5d8c131bbff59fb0c969217fc1d44e6d1503cd1f/rnaseq-star-align/star2pass.rnaseq_harmonization.cwl", 
+    "submitter_id": "ebbbd946-8af3-464c-8bae-e9c8a889d9b3_star__counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "61fbde9d-e978-4c59-8a15-7d69b3650e33", 
+    "created_datetime": "2021-12-13T19:28:30.867058-06:00"
+  }, 
+  "file_size": 4241525, 
+  "md5sum": "0c6524130674f59060429122db52ac87", 
+  "file_id": "a6e85696-c0ad-45b1-aa18-7293346d30f1", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "MAF", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-39-5040-01A-21D-2122-08", 
+      "entity_type": "aliquot", 
+      "case_id": "eca4bfa2-5ba5-4708-959a-d901c1b61edd", 
+      "entity_id": "ed20199a-f66a-4419-acb9-02387a9a7fb0"
+    }, 
+    {
+      "entity_submitter_id": "TCGA-39-5040-11A-01D-2122-08", 
+      "entity_type": "aliquot", 
+      "case_id": "eca4bfa2-5ba5-4708-959a-d901c1b61edd", 
+      "entity_id": "4f5825ed-ca04-4eaa-b42e-ee79f943d4d1"
+    }
+  ], 
+  "file_name": "e0311929-6070-4159-80d3-30c84896da7b.wxs.aliquot_ensemble_masked.maf.gz", 
+  "submitter_id": "38c33e8e-f33b-4fd3-8bf9-baae7b6dd10d", 
+  "data_category": "Simple Nucleotide Variation", 
+  "annotations": [
+    {
+      "annotation_id": "2472afe1-dab7-4b2d-914e-7b7f70900b3a", 
+      "entity_submitter_id": "38c33e8e-f33b-4fd3-8bf9-baae7b6dd10d", 
+      "notes": "Variants from SomaticSniper are not included.", 
+      "entity_type": "masked_somatic_mutation", 
+      "updated_datetime": "2022-02-28T16:04:22.141715-06:00", 
+      "state": "released", 
+      "category": "General", 
+      "classification": "Notification", 
+      "entity_id": "fdcd10e0-79af-4412-92c7-fb9d595df2a2", 
+      "created_datetime": "2022-02-28T16:04:22.141715-06:00", 
+      "status": "Approved"
+    }
+  ], 
+  "analysis": {
+    "workflow_version": "3dd621a8745ee2b91716911604bf3f096337a9b7", 
+    "input_files": [
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "d8b65fce-9fb4-45cb-8895-33a5567a086d.wxs.VarScan2.aliquot.maf.gz", 
+        "submitter_id": "132a2763-1f9e-4d3c-afc9-b1f9a9909b8c", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 440215, 
+        "created_datetime": "2022-02-03T21:05:39.778849-06:00", 
+        "md5sum": "a4b0396d986765fa5f3d85f636ecaed1", 
+        "updated_datetime": "2022-02-07T21:12:35.820138-06:00", 
+        "file_id": "54e09806-77c0-4acd-8958-db2e15af5c83", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }, 
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "96a01afa-f013-427a-83d8-2c8b4e017276.wxs.MuSE.aliquot.maf.gz", 
+        "submitter_id": "98473182-9f9f-4696-a82f-a9766e6bc799", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 394097, 
+        "created_datetime": "2022-02-03T21:05:49.541777-06:00", 
+        "md5sum": "d02b403e5441aad08966e6cd7bbe6c76", 
+        "updated_datetime": "2022-02-07T21:12:35.820138-06:00", 
+        "file_id": "68380855-9f24-4176-bec8-a44de243e043", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }, 
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "d782bf89-0e52-41bb-8ee1-8f0740332d53.wxs.MuTect2.aliquot.maf.gz", 
+        "submitter_id": "23496b81-abfb-4af7-b9f7-2bc87ee1296e", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 1371993, 
+        "created_datetime": "2022-02-03T21:05:44.462446-06:00", 
+        "md5sum": "6703660da0e7697c104c4009844cafbf", 
+        "updated_datetime": "2022-02-07T21:12:35.820138-06:00", 
+        "file_id": "8afdd3ef-c11c-444c-934b-db21576bcebb", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }, 
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "7031ab78-4b35-4100-9fd8-a3300497220c.wxs.Pindel.aliquot.maf.gz", 
+        "submitter_id": "4bf13272-a68c-4730-a408-b723ffb68221", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 40541, 
+        "created_datetime": "2022-02-03T22:23:52.232430-06:00", 
+        "md5sum": "de45067125c2758b0b38a22c27eaf64b", 
+        "updated_datetime": "2022-02-07T21:12:35.820138-06:00", 
+        "file_id": "b809297d-95b1-46d5-8722-b4d81e0207d1", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }
+    ], 
+    "updated_datetime": "2022-08-01T16:16:18.284875-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/aliquot-maf-cwl/blob/3dd621a8745ee2b91716911604bf3f096337a9b7/ensemble_aliquot_maf/ensemble_aliquot_maf_wf.cwl", 
+    "submitter_id": "e0311929-6070-4159-80d3-30c84896da7b", 
+    "state": "released", 
+    "workflow_type": "Aliquot Ensemble Somatic Variant Merging and Masking", 
+    "analysis_id": "9f9953a7-22de-4cf7-b9a3-50e35d94c001", 
+    "created_datetime": "2022-02-03T22:53:30.621257-06:00"
+  }, 
+  "file_size": 165892, 
+  "md5sum": "c304d7cfd3e584339b5d522547b21232", 
+  "file_id": "fdcd10e0-79af-4412-92c7-fb9d595df2a2", 
+  "data_type": "Masked Somatic Mutation", 
+  "state": "released", 
+  "experimental_strategy": "WXS"
+},{
+  "data_format": "MAF", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-33-AASD-01A-11D-A401-08", 
+      "entity_type": "aliquot", 
+      "case_id": "ef6116ce-ae38-488c-b3cc-0e88ba0f1876", 
+      "entity_id": "645dc53f-9382-4fc8-b5d2-6a8180adaa6d"
+    }, 
+    {
+      "entity_submitter_id": "TCGA-33-AASD-11A-11D-A401-08", 
+      "entity_type": "aliquot", 
+      "case_id": "ef6116ce-ae38-488c-b3cc-0e88ba0f1876", 
+      "entity_id": "85e306ac-3826-4867-a63b-7d9de5060f8f"
+    }
+  ], 
+  "file_name": "26637939-1a76-47bf-bf4b-28e56e0281f0.wxs.aliquot_ensemble_masked.maf.gz", 
+  "submitter_id": "fd16d8d5-9824-4d8d-bc17-7d10825598f8", 
+  "data_category": "Simple Nucleotide Variation", 
+  "annotations": [
+    {
+      "annotation_id": "79266c37-c5f6-4d3e-b785-d5006db99bed", 
+      "entity_submitter_id": "fd16d8d5-9824-4d8d-bc17-7d10825598f8", 
+      "notes": "Variants from SomaticSniper are not included.", 
+      "entity_type": "masked_somatic_mutation", 
+      "updated_datetime": "2022-02-28T16:04:17.488115-06:00", 
+      "state": "released", 
+      "category": "General", 
+      "classification": "Notification", 
+      "entity_id": "670d1318-172a-46a6-b896-f4aeb497a6b8", 
+      "created_datetime": "2022-02-28T16:04:17.488115-06:00", 
+      "status": "Approved"
+    }
+  ], 
+  "analysis": {
+    "workflow_version": "3dd621a8745ee2b91716911604bf3f096337a9b7", 
+    "input_files": [
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "aff81f41-6e2d-4820-8d2e-ec95365385d1.wxs.Pindel.aliquot.maf.gz", 
+        "submitter_id": "f38d1650-085e-4507-ae6a-06157194a358", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 329715, 
+        "created_datetime": "2022-02-03T22:29:45.963845-06:00", 
+        "md5sum": "29dbaca0213cf410bebbfbd4c53e14c0", 
+        "updated_datetime": "2022-02-07T21:12:35.820138-06:00", 
+        "file_id": "6d95c1c2-4ec4-4519-bbd9-0fb6f1e88ce7", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }, 
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "839d5318-5b46-44c0-a2e8-77f483fdf7cc.wxs.VarScan2.aliquot.maf.gz", 
+        "submitter_id": "cba916bd-b725-4ee6-b353-d038ecf1e362", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 375625, 
+        "created_datetime": "2022-02-03T21:32:37.496093-06:00", 
+        "md5sum": "ed5b8529f42d2327697cb762489ee821", 
+        "updated_datetime": "2022-02-07T21:12:35.820138-06:00", 
+        "file_id": "24420c08-edd4-46af-95b6-988e47213525", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }, 
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "8dbf5275-cb04-456a-be43-258776418488.wxs.MuSE.aliquot.maf.gz", 
+        "submitter_id": "7b20eeed-4ac0-49d9-800e-13e3ecd5fbad", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 293982, 
+        "created_datetime": "2022-02-03T21:32:50.830763-06:00", 
+        "md5sum": "e7f1a10b1741c60629ab1a9b5a37c6b0", 
+        "updated_datetime": "2022-02-07T21:12:35.820138-06:00", 
+        "file_id": "03e6b40e-3bf0-4a73-8c33-b1bed9806767", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }, 
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "5923ef1c-bb76-4721-bf18-3e9b6c79367b.wxs.MuTect2.aliquot.maf.gz", 
+        "submitter_id": "27a35dbb-072f-41d3-873a-191734e97b21", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 1010378, 
+        "created_datetime": "2022-02-03T21:32:41.925818-06:00", 
+        "md5sum": "86dd0ab729ad091aa1a74114069e0423", 
+        "updated_datetime": "2022-02-07T21:12:35.820138-06:00", 
+        "file_id": "a25388a8-8645-431c-809b-bbdf0134b712", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }
+    ], 
+    "updated_datetime": "2022-08-01T16:32:43.032549-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/aliquot-maf-cwl/blob/3dd621a8745ee2b91716911604bf3f096337a9b7/ensemble_aliquot_maf/ensemble_aliquot_maf_wf.cwl", 
+    "submitter_id": "26637939-1a76-47bf-bf4b-28e56e0281f0", 
+    "state": "released", 
+    "workflow_type": "Aliquot Ensemble Somatic Variant Merging and Masking", 
+    "analysis_id": "8df008da-7d7c-4a9a-b453-6e8bfb5e1096", 
+    "created_datetime": "2022-02-03T22:57:36.659080-06:00"
+  }, 
+  "file_size": 124046, 
+  "md5sum": "e22880716b355ea3b0bf9a0de522a465", 
+  "file_id": "670d1318-172a-46a6-b896-f4aeb497a6b8", 
+  "data_type": "Masked Somatic Mutation", 
+  "state": "released", 
+  "experimental_strategy": "WXS"
+},{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-33-AASD-01A-11R-A405-07", 
+      "entity_type": "aliquot", 
+      "case_id": "ef6116ce-ae38-488c-b3cc-0e88ba0f1876", 
+      "entity_id": "95e1065f-3bd1-4249-b896-e8835c856582"
+    }
+  ], 
+  "file_name": "b3f3ba70-bfce-4e13-bb38-8bc070ccb07f.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "48e3ba5d-939c-4e2f-bdd3-b177e20c0a99", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "workflow_version": "5d8c131bbff59fb0c969217fc1d44e6d1503cd1f", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.9336035058835261, 
+        "total_reads": 143404650, 
+        "access": "controlled", 
+        "file_name": "b3f3ba70-bfce-4e13-bb38-8bc070ccb07f.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.005365481, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "e1c5cbc3-b70e-43e9-afc3-a0a7cb518ec8", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 7930084753, 
+        "created_datetime": "2021-12-13T18:03:38.213865-06:00", 
+        "average_base_quality": 36, 
+        "md5sum": "2bc0032726d04dcfd4634e5792d990be", 
+        "updated_datetime": "2023-07-12T10:43:03.003252-05:00", 
+        "file_id": "6d7a6372-704c-436d-800b-d6d7f03b11af", 
+        "pairs_on_diff_chr": 279401, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 1198, 
+        "average_read_length": 48, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2022-01-19T13:48:50.358334-06:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-rnaseq-cwl/blob/5d8c131bbff59fb0c969217fc1d44e6d1503cd1f/rnaseq-star-align/star2pass.rnaseq_harmonization.cwl", 
+    "submitter_id": "b3f3ba70-bfce-4e13-bb38-8bc070ccb07f_star__counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "eea37ecd-fa7e-4211-b871-cd1c038d653f", 
+    "created_datetime": "2021-12-13T19:24:48.697786-06:00"
+  }, 
+  "file_size": 4243686, 
+  "md5sum": "65060f9649aabe5fd0277edb7e2a5123", 
+  "file_id": "fa752ca7-ed6f-44cc-b19d-3de8613aaf89", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "MAF", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-LA-A446-10A-01D-A25A-08", 
+      "entity_type": "aliquot", 
+      "case_id": "12b44011-90c0-4a70-8ea4-a216ec0c0860", 
+      "entity_id": "0e6732f1-06e5-4714-aa34-284dee09fa61"
+    }, 
+    {
+      "entity_submitter_id": "TCGA-LA-A446-01A-21D-A257-08", 
+      "entity_type": "aliquot", 
+      "case_id": "12b44011-90c0-4a70-8ea4-a216ec0c0860", 
+      "entity_id": "b9904936-cdaa-45f0-9619-9dc72e71dee8"
+    }
+  ], 
+  "file_name": "7d335357-0873-4d0a-8267-6a5a58d799ed.wxs.aliquot_ensemble_masked.maf.gz", 
+  "submitter_id": "c41d6e5a-d526-485e-b90b-df2cb99e58f7", 
+  "data_category": "Simple Nucleotide Variation", 
+  "annotations": [
+    {
+      "annotation_id": "768737f5-6a65-400d-a7a5-05861ad055ff", 
+      "entity_submitter_id": "c41d6e5a-d526-485e-b90b-df2cb99e58f7", 
+      "notes": "Variants from SomaticSniper are not included.", 
+      "entity_type": "masked_somatic_mutation", 
+      "updated_datetime": "2022-02-28T12:28:24.521034-06:00", 
+      "state": "released", 
+      "category": "General", 
+      "classification": "Notification", 
+      "entity_id": "a3d25a4c-b7d4-45bc-a6d3-4b82e82cd8a2", 
+      "created_datetime": "2022-02-28T12:28:24.521034-06:00", 
+      "status": "Approved"
+    }
+  ], 
+  "analysis": {
+    "workflow_version": "3dd621a8745ee2b91716911604bf3f096337a9b7", 
+    "input_files": [
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "b65d6aa0-683f-475b-b2f0-3da502511570.wxs.Pindel.aliquot.maf.gz", 
+        "submitter_id": "36f60667-bb25-45b9-aa70-a96427828f08", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 40300, 
+        "created_datetime": "2022-02-03T22:18:49.555557-06:00", 
+        "md5sum": "ca2c2e918ca9de4f607fc90685a89332", 
+        "updated_datetime": "2022-02-07T21:12:35.820138-06:00", 
+        "file_id": "def711fe-9ab4-4212-9dac-6c10a74b761c", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }, 
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "b2f873e2-67b3-4a33-9ada-9fd18361c666.wxs.MuTect2.aliquot.maf.gz", 
+        "submitter_id": "c5eb3067-258f-4151-9943-9c64f7f111ce", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 1495296, 
+        "created_datetime": "2022-02-03T20:40:48.965028-06:00", 
+        "md5sum": "fc7468dea3bca70bfe5cb4f6dc2a3aa8", 
+        "updated_datetime": "2022-02-07T21:12:35.820138-06:00", 
+        "file_id": "95059cd0-706c-455b-8bb1-6c4abc77b556", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }, 
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "f069fe4d-5352-4b29-9547-dc43e8c18e4b.wxs.VarScan2.aliquot.maf.gz", 
+        "submitter_id": "084eacff-e42f-4c53-a4cd-59ddee358999", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 362512, 
+        "created_datetime": "2022-02-03T20:40:55.042407-06:00", 
+        "md5sum": "ab7e3ecde985f477853844f3c5bce5e9", 
+        "updated_datetime": "2022-02-07T21:12:35.820138-06:00", 
+        "file_id": "f7b2f12f-eba0-4060-9aff-198392757ca0", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }, 
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "214b892d-bca0-4207-a3ae-3699a6075800.wxs.MuSE.aliquot.maf.gz", 
+        "submitter_id": "ef35449a-67f5-4701-a986-d9bd3528ecb1", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 317999, 
+        "created_datetime": "2022-02-03T20:40:59.903403-06:00", 
+        "md5sum": "d412a353ea041a5752b8951d415bbd75", 
+        "updated_datetime": "2022-02-07T21:12:35.820138-06:00", 
+        "file_id": "8e2d2277-fb52-4859-984a-827cda4b9137", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }
+    ], 
+    "updated_datetime": "2022-08-01T16:29:02.921644-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/aliquot-maf-cwl/blob/3dd621a8745ee2b91716911604bf3f096337a9b7/ensemble_aliquot_maf/ensemble_aliquot_maf_wf.cwl", 
+    "submitter_id": "7d335357-0873-4d0a-8267-6a5a58d799ed", 
+    "state": "released", 
+    "workflow_type": "Aliquot Ensemble Somatic Variant Merging and Masking", 
+    "analysis_id": "91e26c3c-b9e8-4b6b-9f19-32c9f9e88835", 
+    "created_datetime": "2022-02-03T22:49:59.620006-06:00"
+  }, 
+  "file_size": 112701, 
+  "md5sum": "e9ed13ff4f855047da465805a86b6fab", 
+  "file_id": "a3d25a4c-b7d4-45bc-a6d3-4b82e82cd8a2", 
+  "data_type": "Masked Somatic Mutation", 
+  "state": "released", 
+  "experimental_strategy": "WXS"
+},{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-LA-A446-01A-21R-A24Z-07", 
+      "entity_type": "aliquot", 
+      "case_id": "12b44011-90c0-4a70-8ea4-a216ec0c0860", 
+      "entity_id": "e0dd6dc3-dcae-478c-99f3-e060272c14ef"
+    }
+  ], 
+  "file_name": "8c2b89a9-e994-46d9-b215-30882f4f1950.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "c3b7f29a-cb01-4718-a26c-5ed10ec1d685", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "workflow_version": "5d8c131bbff59fb0c969217fc1d44e6d1503cd1f", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.9834364256661561, 
+        "total_reads": 128403988, 
+        "access": "controlled", 
+        "file_name": "8c2b89a9-e994-46d9-b215-30882f4f1950.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.003383338, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "8e8c3a28-e2c8-486f-a0af-476547efdeed", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 7682337196, 
+        "created_datetime": "2021-12-13T17:53:09.206063-06:00", 
+        "average_base_quality": 36, 
+        "md5sum": "9b21f5930b1303a89593bcb6b464b852", 
+        "updated_datetime": "2023-07-12T10:43:03.003252-05:00", 
+        "file_id": "a76d53ea-a1a6-4f48-b4e8-3d5a9d9d80d5", 
+        "pairs_on_diff_chr": 442772, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 1361, 
+        "average_read_length": 48, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2022-01-19T13:48:50.358334-06:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-rnaseq-cwl/blob/5d8c131bbff59fb0c969217fc1d44e6d1503cd1f/rnaseq-star-align/star2pass.rnaseq_harmonization.cwl", 
+    "submitter_id": "8c2b89a9-e994-46d9-b215-30882f4f1950_star__counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "492df925-b296-4011-b4c7-54d0c6e21827", 
+    "created_datetime": "2021-12-13T19:22:01.802301-06:00"
+  }, 
+  "file_size": 4243392, 
+  "md5sum": "273c60e8e8cd3e9ffd6940bb766eb8d7", 
+  "file_id": "19523b40-a72b-47d3-acad-9720a26128ed", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "MAF", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-55-7913-10A-01D-2238-08", 
+      "entity_type": "aliquot", 
+      "case_id": "c9c533ee-e154-4a56-bce9-b5af37574b2f", 
+      "entity_id": "441733b7-dafe-47f2-952f-7332f21bdede"
+    }, 
+    {
+      "entity_submitter_id": "TCGA-55-7913-01B-11D-2238-08", 
+      "entity_type": "aliquot", 
+      "case_id": "c9c533ee-e154-4a56-bce9-b5af37574b2f", 
+      "entity_id": "ca138254-66ce-4df1-ab2b-17310aef640d"
+    }
+  ], 
+  "file_name": "22154f9d-6517-4fa0-9d64-de75bccc0d0e.wxs.aliquot_ensemble_masked.maf.gz", 
+  "submitter_id": "193b0c99-0d13-403c-a1d2-b7628442c8c6", 
+  "data_category": "Simple Nucleotide Variation", 
+  "annotations": [
+    {
+      "annotation_id": "ae197862-76e3-40d7-af8b-13669fb2d785", 
+      "entity_submitter_id": "193b0c99-0d13-403c-a1d2-b7628442c8c6", 
+      "notes": "Variants from SomaticSniper are not included.", 
+      "entity_type": "masked_somatic_mutation", 
+      "updated_datetime": "2022-02-28T15:15:46.000620-06:00", 
+      "state": "released", 
+      "category": "General", 
+      "classification": "Notification", 
+      "entity_id": "a2a5eafe-27be-4d43-b8e6-8a6af772841f", 
+      "created_datetime": "2022-02-28T15:15:46.000620-06:00", 
+      "status": "Approved"
+    }
+  ], 
+  "analysis": {
+    "workflow_version": "3dd621a8745ee2b91716911604bf3f096337a9b7", 
+    "input_files": [
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "24329205-a5e0-4f09-b524-a23d19634713.wxs.MuTect2.aliquot.maf.gz", 
+        "submitter_id": "562d3438-cd85-4fc5-940a-7be04ac49a98", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 1224197, 
+        "created_datetime": "2022-02-03T22:35:34.874544-06:00", 
+        "md5sum": "4bcab6aa5a27f218d55a5014b8188eeb", 
+        "updated_datetime": "2022-02-07T21:01:20.710715-06:00", 
+        "file_id": "81635278-df37-4fed-8049-dcc380304309", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }, 
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "abc894bf-d4d0-4a19-8121-2fc9dc3f7680.wxs.VarScan2.aliquot.maf.gz", 
+        "submitter_id": "10d9ad02-359a-4946-90d2-55025f881b14", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 327166, 
+        "created_datetime": "2022-02-03T22:35:20.375337-06:00", 
+        "md5sum": "424b93d0d96a21845ee86d4dda0cb492", 
+        "updated_datetime": "2022-02-07T21:01:20.710715-06:00", 
+        "file_id": "d0efbc99-eb4a-40d4-9d42-63c100802945", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }, 
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "b5bc8233-c890-49f5-8a9b-fc7e2da502eb.wxs.MuSE.aliquot.maf.gz", 
+        "submitter_id": "a40ea063-2594-4c30-bff3-edb20a8a3acb", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 273821, 
+        "created_datetime": "2022-02-03T22:35:25.277217-06:00", 
+        "md5sum": "ad71adddffc0e9491f22fd1f55e63afd", 
+        "updated_datetime": "2022-02-07T21:01:20.710715-06:00", 
+        "file_id": "71c97a6e-4175-4a6c-94c4-8196b4e6605f", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }, 
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "06c98963-37a8-428a-978a-8340e407fcaa.wxs.Pindel.aliquot.maf.gz", 
+        "submitter_id": "52df55b8-cf3d-40a9-b23d-dd3fae0bd29e", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 143741, 
+        "created_datetime": "2022-02-04T00:14:40.807594-06:00", 
+        "md5sum": "38c01737b0ee761012317b228f65615f", 
+        "updated_datetime": "2022-02-07T21:01:20.710715-06:00", 
+        "file_id": "11284e3f-3e60-4540-b92e-babc3dca4c8e", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }
+    ], 
+    "updated_datetime": "2022-08-01T16:12:07.395996-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/aliquot-maf-cwl/blob/3dd621a8745ee2b91716911604bf3f096337a9b7/ensemble_aliquot_maf/ensemble_aliquot_maf_wf.cwl", 
+    "submitter_id": "22154f9d-6517-4fa0-9d64-de75bccc0d0e", 
+    "state": "released", 
+    "workflow_type": "Aliquot Ensemble Somatic Variant Merging and Masking", 
+    "analysis_id": "f0ee95b7-c49b-461c-ac43-1f7ddee4ee0a", 
+    "created_datetime": "2022-02-04T00:50:51.703789-06:00"
+  }, 
+  "file_size": 116128, 
+  "md5sum": "b9c73e5f29dfdb4938d431b3a5a0723d", 
+  "file_id": "a2a5eafe-27be-4d43-b8e6-8a6af772841f", 
+  "data_type": "Masked Somatic Mutation", 
+  "state": "released", 
+  "experimental_strategy": "WXS"
+},{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-55-7913-01B-11R-2241-07", 
+      "entity_type": "aliquot", 
+      "case_id": "c9c533ee-e154-4a56-bce9-b5af37574b2f", 
+      "entity_id": "168efb85-ed48-4e77-ba13-90674218c506"
+    }
+  ], 
+  "file_name": "7d9c7c34-76e0-4622-b5f7-60e12f6d4e07.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "51a1adb2-1596-4c11-b8af-b75829dfaea4", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "workflow_version": "eecca6e2e475aab335bd7c365025ca0d0daa144b", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.9799558914301976, 
+        "total_reads": 193288516, 
+        "access": "controlled", 
+        "file_name": "7d9c7c34-76e0-4622-b5f7-60e12f6d4e07.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.002823215, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "c134ee71-27a1-4ef3-9d08-e0f8bb8a413f", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 11015582830, 
+        "created_datetime": "2021-12-13T18:10:02.304025-06:00", 
+        "average_base_quality": 36, 
+        "md5sum": "43f08d7c878fa1ae28e6721ad4b3c5a3", 
+        "updated_datetime": "2023-07-12T10:43:15.718276-05:00", 
+        "file_id": "89b233d6-33e0-4699-acf4-159609ccd872", 
+        "pairs_on_diff_chr": 364530, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 1169, 
+        "average_read_length": 48, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2022-01-19T13:38:04.793324-06:00", 
+    "workflow_link": "quay.io/ncigdc", 
+    "submitter_id": "7d9c7c34-76e0-4622-b5f7-60e12f6d4e07_star__counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "44484682-9e87-4803-bef0-b50b35bee221", 
+    "created_datetime": "2021-12-13T19:18:09.348028-06:00"
+  }, 
+  "file_size": 4252453, 
+  "md5sum": "15cec03c65ac24e7da940cd4b9f99219", 
+  "file_id": "a0fce6cc-a525-4970-82b7-8512bb0708b3", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "MAF", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-05-4415-10A-01D-1855-08", 
+      "entity_type": "aliquot", 
+      "case_id": "d15b7b29-c5c5-41d8-b83b-7cc12fe92820", 
+      "entity_id": "1339361e-fe70-4584-a7cd-946ccd8476bc"
+    }, 
+    {
+      "entity_submitter_id": "TCGA-05-4415-01A-22D-1855-08", 
+      "entity_type": "aliquot", 
+      "case_id": "d15b7b29-c5c5-41d8-b83b-7cc12fe92820", 
+      "entity_id": "128f52c7-49dc-4a9f-a5bc-1c14684edc9c"
+    }
+  ], 
+  "file_name": "7b413fc5-9285-4a73-93d6-7e09afd478d0.wxs.aliquot_ensemble_masked.maf.gz", 
+  "submitter_id": "57fec5ac-8e63-4770-8c96-a0659e535108", 
+  "data_category": "Simple Nucleotide Variation", 
+  "annotations": [
+    {
+      "annotation_id": "5ba194d2-cbba-46b8-8ba7-a6c53bf4a8d0", 
+      "entity_submitter_id": "57fec5ac-8e63-4770-8c96-a0659e535108", 
+      "notes": "Variants from SomaticSniper are not included.", 
+      "entity_type": "masked_somatic_mutation", 
+      "updated_datetime": "2022-02-28T15:16:13.295303-06:00", 
+      "state": "released", 
+      "category": "General", 
+      "classification": "Notification", 
+      "entity_id": "dcc7b0a6-7b05-4fa1-8dbc-72cb9188a548", 
+      "created_datetime": "2022-02-28T15:16:13.295303-06:00", 
+      "status": "Approved"
+    }
+  ], 
+  "analysis": {
+    "workflow_version": "3dd621a8745ee2b91716911604bf3f096337a9b7", 
+    "input_files": [
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "41199efe-ee18-4e5b-9668-3f7b908459a5.wxs.MuTect2.aliquot.maf.gz", 
+        "submitter_id": "f224f2ef-0114-4876-98cc-433e3f7dc3f6", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 1146322, 
+        "created_datetime": "2022-02-03T20:14:14.286361-06:00", 
+        "md5sum": "2719f7f044423577c7fc3941bdaad736", 
+        "updated_datetime": "2022-02-07T21:01:20.710715-06:00", 
+        "file_id": "f04629aa-3b34-4d4e-a092-0d6f535f1644", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }, 
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "2d0d313e-95ff-4735-9df6-4b1df3cc94c8.wxs.Pindel.aliquot.maf.gz", 
+        "submitter_id": "1e11b1bd-887a-4a26-a182-6781ec580e11", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 42111, 
+        "created_datetime": "2022-02-03T23:52:25.915532-06:00", 
+        "md5sum": "9aac0e26f04df8bd1864ae57d5d74bc8", 
+        "updated_datetime": "2022-02-07T21:01:20.710715-06:00", 
+        "file_id": "7e567e63-052c-4fc8-b954-eded2d0dae8b", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }, 
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "ee09837c-ddda-4dad-843b-5509ec39870c.wxs.VarScan2.aliquot.maf.gz", 
+        "submitter_id": "b6c8db79-8ecc-4c97-b42e-14411974597f", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 249698, 
+        "created_datetime": "2022-02-03T20:14:20.202782-06:00", 
+        "md5sum": "0ba9dfb786dc6a51693a445be398d46e", 
+        "updated_datetime": "2022-02-07T21:01:20.710715-06:00", 
+        "file_id": "398d7e39-8872-4c70-aa9a-b91e2f886833", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }, 
+      {
+        "data_format": "MAF", 
+        "access": "controlled", 
+        "file_name": "7ae910b2-f5e1-459d-b728-22c12212e170.wxs.MuSE.aliquot.maf.gz", 
+        "submitter_id": "2d5bffff-364f-4219-81d1-9cbd91bfdb09", 
+        "data_category": "Simple Nucleotide Variation", 
+        "file_size": 226286, 
+        "created_datetime": "2022-02-03T20:14:04.177664-06:00", 
+        "md5sum": "04f2e6cb5c478ad0532a5cc929dd8f7d", 
+        "updated_datetime": "2022-02-07T21:01:20.710715-06:00", 
+        "file_id": "ce596359-4298-4442-a0f0-bdcec957c872", 
+        "data_type": "Annotated Somatic Mutation", 
+        "state": "released", 
+        "experimental_strategy": "WXS"
+      }
+    ], 
+    "updated_datetime": "2022-08-01T16:21:06.016512-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/aliquot-maf-cwl/blob/3dd621a8745ee2b91716911604bf3f096337a9b7/ensemble_aliquot_maf/ensemble_aliquot_maf_wf.cwl", 
+    "submitter_id": "7b413fc5-9285-4a73-93d6-7e09afd478d0", 
+    "state": "released", 
+    "workflow_type": "Aliquot Ensemble Somatic Variant Merging and Masking", 
+    "analysis_id": "c32357c6-05e1-49a3-8f8d-ab3c890ab809", 
+    "created_datetime": "2022-02-04T00:27:46.615142-06:00"
+  }, 
+  "file_size": 74049, 
+  "md5sum": "eb444a4d302a9cd5474bb5c66528e5ec", 
+  "file_id": "dcc7b0a6-7b05-4fa1-8dbc-72cb9188a548", 
+  "data_type": "Masked Somatic Mutation", 
+  "state": "released", 
+  "experimental_strategy": "WXS"
+},{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-39-5040-01A-21R-2125-07", 
+      "entity_type": "aliquot", 
+      "case_id": "eca4bfa2-5ba5-4708-959a-d901c1b61edd", 
+      "entity_id": "48b4302e-03cd-4f73-ab52-fb8dc22a10d4"
+    }
+  ], 
+  "file_name": "8eabe76e-2392-4796-9c4d-a69f5514ec99.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "9dd4a110-014a-41c7-a511-b22af4e568be", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "workflow_version": "5d8c131bbff59fb0c969217fc1d44e6d1503cd1f", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.9863126133206834, 
+        "total_reads": 187684184, 
+        "access": "controlled", 
+        "file_name": "8eabe76e-2392-4796-9c4d-a69f5514ec99.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.002243595, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "392593e6-d808-43dd-9a28-510e24a3389c", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 9661392402, 
+        "created_datetime": "2021-12-13T18:07:35.384798-06:00", 
+        "average_base_quality": 38, 
+        "md5sum": "bb01e500bcaf02d160b692ec34ded9c9", 
+        "updated_datetime": "2023-07-12T10:43:03.003252-05:00", 
+        "file_id": "7c3abe45-1292-44c7-9b24-eae3414abda4", 
+        "pairs_on_diff_chr": 358427, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 1253, 
+        "average_read_length": 48, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2022-01-19T13:48:50.358334-06:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-rnaseq-cwl/blob/5d8c131bbff59fb0c969217fc1d44e6d1503cd1f/rnaseq-star-align/star2pass.rnaseq_harmonization.cwl", 
+    "submitter_id": "8eabe76e-2392-4796-9c4d-a69f5514ec99_star__counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "cf2cfa61-d146-47c7-9df3-3f467dffe62d", 
+    "created_datetime": "2021-12-13T19:25:46.571751-06:00"
+  }, 
+  "file_size": 4250447, 
+  "md5sum": "1be1fec6ff71cdca7dba6d2d2857a60b", 
+  "file_id": "7c59b296-82f3-4bd4-978b-5cae1cbef1e8", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+}]

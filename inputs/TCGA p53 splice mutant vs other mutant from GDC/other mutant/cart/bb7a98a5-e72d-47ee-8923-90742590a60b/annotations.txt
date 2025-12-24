@@ -1,0 +1,3 @@
+id	submitter_id	entity_type	entity_id	category	classification	created_datetime	status	notes
+d932a5df-c7ff-4f9e-95d9-d01e219f2fed	\N	masked_somatic_mutation	bb7a98a5-e72d-47ee-8923-90742590a60b	General	Notification	2022-02-28T13:15:17.091000-06:00	Approved	Variants from SomaticSniper are not included.
+223aefe9-bf46-56e9-b00d-bc74cd4fea83	15263	case	14917461-dae4-44cb-909d-42ac45aef450	Synchronous malignancy	Notification	2013-01-31T00:00:00	Approved	Patient had synchronous prostate cancer. No radiation or systemic chemotherapy.

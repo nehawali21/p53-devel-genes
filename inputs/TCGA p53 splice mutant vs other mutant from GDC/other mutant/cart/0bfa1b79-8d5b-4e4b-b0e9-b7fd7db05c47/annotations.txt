@@ -1,0 +1,3 @@
+id	submitter_id	entity_type	entity_id	category	classification	created_datetime	status	notes
+4d145e73-3b9a-4866-9019-674dd5fe3e96	\N	masked_somatic_mutation	0bfa1b79-8d5b-4e4b-b0e9-b7fd7db05c47	General	Notification	2022-02-28T16:05:24.711003-06:00	Approved	Variants from SomaticSniper are not included.
+05f490f0-6924-5cbb-968e-6312f7c00fd4	11935	case	c70a5975-c37b-47cc-9113-427a754807d8	Neoadjuvant therapy	Notification	2012-11-10T00:00:00	Approved	Patient received neo-adjuvant treatment prior to resection of TCGA tumor per enrollment form.

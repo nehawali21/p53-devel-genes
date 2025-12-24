@@ -1,0 +1,3 @@
+id	submitter_id	entity_type	entity_id	category	classification	created_datetime	status	notes
+c122a020-5721-48bd-be09-3170c554550b	\N	masked_somatic_mutation	db44ae14-1259-42f9-8958-b5a4888114b8	General	Notification	2022-02-28T16:02:41.544060-06:00	Approved	Variants from SomaticSniper are not included.
+5de6652d-418f-5584-88a2-634c35947cea	11759	case	aecf85cc-058c-46f3-9cdc-3573ac3b8438	Prior malignancy	Notification	2012-10-31T00:00:00	Approved	Prior malignancy lung cancer. No systemic chemotherapy or radiation.
