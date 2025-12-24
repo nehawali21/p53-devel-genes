@@ -1,0 +1,9 @@
+case_control,subset,case_submitter_id,project_id,age_at_index,ethnicity,gender,race,ajcc_pathologic_stage,ajcc_pathologic_t,icd_10_code,primary_diagnosis,tissue_or_organ_of_origin,ProtChange
+case,14,TCGA-LA-A446,TCGA-LUSC,68,not hispanic or latino,male,white,Stage IA,T1b,C34.3,"Squamous cell carcinoma, NOS","Lower lobe, lung",T125=
+case,14,TCGA-21-A5DI,TCGA-LUSC,77,not hispanic or latino,male,white,Stage IA,T1b,C34.3,"Squamous cell carcinoma, NOS","Lower lobe, lung",T125=
+control,14,TCGA-NK-A5CT,TCGA-LUSC,70,not hispanic or latino,male,white,Stage IA,T1,C34.3,"Squamous cell carcinoma, NOS","Lower lobe, lung",V157F
+control,14,TCGA-22-5477,TCGA-LUSC,65,not reported,male,white,Stage IA,T1,C34.3,"Squamous cell carcinoma, NOS","Lower lobe, lung",V157F
+case,15,TCGA-39-5039,TCGA-LUSC,76,not reported,male,white,Stage IIA,T2b,C34.1,"Squamous cell carcinoma, NOS","Upper lobe, lung",T125=
+case,15,TCGA-85-8071,TCGA-LUSC,52,not hispanic or latino,male,white,Stage IIA,T1a,C34.1,"Squamous cell carcinoma, NOS","Upper lobe, lung",T125=
+control,15,TCGA-85-8351,TCGA-LUSC,72,not hispanic or latino,male,white,Stage IIA,T2a,C34.3,"Squamous cell carcinoma, NOS","Lower lobe, lung",H179Y
+control,15,TCGA-56-6546,TCGA-LUSC,67,not hispanic or latino,male,white,Stage IIA,T2b,C34.1,"Squamous cell carcinoma, NOS","Upper lobe, lung",H179Y
