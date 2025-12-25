@@ -2,7 +2,7 @@
 *.html linguist-vendored
 *.bib linguist-vendored
 *.ipynb linguist-vendored
-licroxford-neha-geo-rnaseq-509e83534447/* linguist-vendored
+licroxford-neha-geo-rnaseq-509e83534447/** linguist-vendored
 *.bed filter=lfs diff=lfs merge=lfs -text
 *.tsv filter=lfs diff=lfs merge=lfs -text
 *.gz filter=lfs diff=lfs merge=lfs -text
