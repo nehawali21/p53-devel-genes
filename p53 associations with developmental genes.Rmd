@@ -63,7 +63,7 @@ $~$
 if (!require("pacman", quietly = TRUE)) install.packages("pacman"); library(pacman)
 #install.packages("doMC", repos = "http://R-Forge.R-project.org")
 #pacman::p_install(rstan, rstantools, DirichletMultinomial)
-pacman::p_load(stringr, dplyr, tidyverse, ggplot2, kableExtra, knitr, devtools, remotes, rmarkdown, readr, patchwork, data.table, scales, grid, gridExtra, cowplot, janitor, reshape2, tibble, gtools, ggpubr, ggrepel, RColorBrewer, venn, ggpolypath, bookdown, readxl, BiocManager, clusterProfiler, org.Hs.eg.db, ComplexHeatmap, DOSE, condformat, AnnotationDbi, hgnc, msigdbr, msigdbdf, ggpattern, DESeq2, ashr, ccoptimalmatch, fmsb)
+pacman::p_load(stringr, dplyr, tidyverse, ggplot2, kableExtra, knitr, devtools, remotes, rmarkdown, readr, patchwork, data.table, scales, grid, gridExtra, cowplot, janitor, reshape2, tibble, gtools, ggpubr, ggrepel, RColorBrewer, venn, ggpolypath, bookdown, readxl, BiocManager, clusterProfiler, org.Hs.eg.db, ComplexHeatmap, DOSE, condformat, AnnotationDbi, hgnc, msigdbr, msigdbdf, ggpattern, DESeq2, ashr, ccoptimalmatch, fmsb, ggtext)
 #p_load_gh("davidaknowles/leafcutter/leafcutter")
 #remotes::install_github("davidaknowles/leafcutter/leafcutter", ref = "psi_2019")
 
@@ -96,6 +96,13 @@ pretty_radarchart <- function(data,
              title = title,
              # centerzero = TRUE,
              ...)
+}
+
+# define function for highlighting key paths in clusterprofiler dotplots
+highlight_paths_dotplot <- function(ids) {
+  i <- grepl('apopt', ids, ignore.case = TRUE)
+  ids[i] <- paste0("<i style='color:#CC79A7'>", ids[i])
+  return(ids)
 }
 
 #set seed for reproducibility
@@ -28854,7 +28861,7 @@ enrich_dotplot <- dotplot(enrich_simplified,
                                                 big.mark = ",",
                                                 trim = TRUE),
                                          " Known p53 Targets Implicated in Human Development"),
-                          label_format = Inf,
+                          label_format = highlight_paths_dotplot,
                           order = TRUE) +
   ylab("Pathway") +
   scale_x_continuous(expand = c(0.005, 0.005),
@@ -28866,11 +28873,12 @@ enrich_dotplot <- dotplot(enrich_simplified,
                                                 f = ceiling,
                                                 accuracy = 0.02)),
                      breaks = pretty_breaks(n = 5)) +
-  scale_y_discrete(expand = c(0.015, 0.015)) +
+  # scale_y_discrete(expand = c(0.015, 0.015)) +
   theme(axis.title.x = element_text(margin = margin(5,0,0,0,"mm")),
         axis.title.y = element_text(margin = margin(0,5,0,0,"mm")),
         axis.title = element_text(face = "bold",
                                   color = "black"),
+        axis.text.y = ggtext::element_markdown(), # to make highlight function work
         plot.title = element_text(hjust = 0.5,
                                   face = "bold",
                                   color = "black",
@@ -28883,6 +28891,7 @@ enrich_dotplot <- dotplot(enrich_simplified,
     # aes(shape = I(16)) + 
     # aes(color = p.adjust) + 
     # enrichplot::set_enrichplot_color(type = "color", name = "p.adjust")
+fig_4c <- enrich_dotplot
 enrich_dotplot
 ggsave(file = paste0(fig_path,
                      "enrich-dotplot-known.svg"), 
@@ -28941,7 +28950,7 @@ enrich_dotplot_hallmark <- dotplot(enrich_hallmark,
                                                 big.mark = ",",
                                                 trim = TRUE),
                                          " Known p53 Targets Implicated in Human Development"),
-                          label_format = Inf,
+                          label_format = highlight_paths_dotplot,
                           order = TRUE) +
   ylab("Pathway") +
   scale_x_continuous(expand = c(0.025, 0.025),
@@ -28953,11 +28962,12 @@ enrich_dotplot_hallmark <- dotplot(enrich_hallmark,
                                                 f = ceiling,
                                                 accuracy = 0.02)),
                      breaks = pretty_breaks(n = 5)) +
-  scale_y_discrete(expand = c(0.1, 0.1)) +
+  # scale_y_discrete(expand = c(0.1, 0.1)) +
   theme(axis.title.x = element_text(margin = margin(5,0,0,0,"mm")),
         axis.title.y = element_text(margin = margin(0,5,0,0,"mm")),
         axis.title = element_text(face = "bold",
                                   color = "black"),
+        axis.text.y = ggtext::element_markdown(), # to make highlight function work
         plot.title = element_text(hjust = 0.5,
                                   face = "bold",
                                   color = "black",
@@ -28970,6 +28980,7 @@ enrich_dotplot_hallmark <- dotplot(enrich_hallmark,
     # aes(shape = I(16)) + 
     # aes(color = p.adjust) + 
     # enrichplot::set_enrichplot_color(type = "color", name = "p.adjust")
+fig_4a <- enrich_dotplot_hallmark
 enrich_dotplot_hallmark
 ggsave(file = paste0(fig_path,
                      "enrich-dotplot-known-hallmark.svg"), 
@@ -29025,7 +29036,7 @@ enrich_dotplot_KEGG <- dotplot(enrich_KEGG,
                                                 big.mark = ",",
                                                 trim = TRUE),
                                          " Known p53 Targets Implicated in Human Development"),
-                          label_format = Inf,
+                          label_format = highlight_paths_dotplot,
                           order = TRUE) +
   ylab("Pathway") +
   scale_x_continuous(expand = c(0.005, 0.005),
@@ -29037,11 +29048,12 @@ enrich_dotplot_KEGG <- dotplot(enrich_KEGG,
                                                 f = ceiling,
                                                 accuracy = 0.02)),
                      breaks = pretty_breaks(n = 5)) +
-  scale_y_discrete(expand = c(0.07, 0.07)) +
+  # scale_y_discrete(expand = c(0.07, 0.07)) +
   theme(axis.title.x = element_text(margin = margin(5,0,0,0,"mm")),
         axis.title.y = element_text(margin = margin(0,5,0,0,"mm")),
         axis.title = element_text(face = "bold",
                                   color = "black"),
+        axis.text.y = ggtext::element_markdown(), # to make highlight function work
         plot.title = element_text(hjust = 0.5,
                                   face = "bold",
                                   color = "black",
@@ -29054,6 +29066,7 @@ enrich_dotplot_KEGG <- dotplot(enrich_KEGG,
     # aes(shape = I(16)) + 
     # aes(color = p.adjust) + 
     # enrichplot::set_enrichplot_color(type = "color", name = "p.adjust")
+fig_4b <- enrich_dotplot_KEGG 
 enrich_dotplot_KEGG
 ggsave(file = paste0(fig_path,
                      "enrich-dotplot-known-KEGG.svg"), 
@@ -37935,7 +37948,7 @@ knowntargets_tissues_barchart
 
 $~$
 
-```{r knowntargets-tissues-barchart-germlayer-color, fig.height = 8.5, fig.width = 9.5}
+```{r knowntargets-tissues-barchart-germlayer-color, fig.height = 8.5, fig.width = 9.5, warning = FALSE}
 knowntargets_tissues_barchart_germlayer_color <- ggplot(contingency_tissue_known_reg %>%
                                          subset(!(Tissue %in% c("core_LFS_tissues",
                                                                 "other_LFS_tissues",
@@ -38003,10 +38016,10 @@ knowntargets_tissues_barchart_germlayer_color <- ggplot(contingency_tissue_known
                      limits = c(0, plyr::round_any(max(as.numeric(contingency_tissue_known_reg$Percent_Known_in_Dataset)),
                                               f = ceiling,
                                               accuracy = 0.835))) +
-  scale_fill_manual(values = c("#1B9E77",
-                               "#7570B3",
-                               "#D95F02",
-                               "#488795")) +
+  scale_fill_manual(values = c("#009E73",
+                               "#0072B2",
+                               "#D55E00",
+                               "#000000")) +
   annotate("text", 
            x = 6, 
            y = 2, 
@@ -38036,7 +38049,43 @@ knowntargets_tissues_barchart_germlayer_color <- ggplot(contingency_tissue_known
                                   size = 16,
                                   margin = margin(0,0,5,0,"mm")),
         plot.margin = margin(0,0,0,20, "mm"))
+fig_4d <- knowntargets_tissues_barchart_germlayer_color +
+  ggtitle(NULL) +
+  theme(axis.title.x = element_blank(), 
+        plot.margin = margin(10,5,15,60, units = "mm"))
 knowntargets_tissues_barchart_germlayer_color
+```
+
+$~$
+
+```{r figure-4, message = FALSE, warning = FALSE}
+# cowplot to arrange, first the smaller graphs, then the larger dotplot
+plot_grid(fig_4a + 
+              ggtitle(NULL) + 
+              theme(axis.title.y = element_blank(), 
+                    plot.margin = margin(10,5,5,10, unit = "mm")), fig_4b  + 
+              ggtitle(NULL) + 
+              theme(axis.title.y = element_blank(), 
+                    plot.margin = margin(10,5,5,10, unit = "mm")), 
+          fig_4d, 
+          ncol = 1, 
+          labels = c("A", "B", "D"), # alphabetical caps in top left
+          label_size = 20, # size of alpha caps
+          rel_heights = c(1, 0.8, 1.5)) %>% # when mult rows make 1 row a multiple taller than another
+  plot_grid(., 
+            fig_4c + 
+              ggtitle(NULL) +
+              theme(axis.title.y = element_blank(), 
+                    plot.margin = margin(10,5,5,10, unit = "mm")), 
+            ncol = 2,
+            labels = c("", "C"), 
+            label_size = 20,
+            rel_widths = c(1, 1.1)) %>% # when mult cols make 1 col a multiple wider than another
+    save_plot(paste0(fig_path, 
+                     "figure-4.pdf"),
+              ., 
+              base_height = 13.5,
+              base_width = 19) 
 ```
 
 $~$
